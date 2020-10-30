@@ -9,24 +9,29 @@ import pandas as pd
 import numpy as np
 import cite
 
-with open('/home/cx/LINMUX/Code/python/Utils/ref.txt') as f:
-    ref_texts = f.readlines()
+def get_paper_ref(title):
+    phrase = []
+    failures = []
+    ref_title = cite.dig_ref(title)
+    for idx in range(len(ref_title)):
+        try:
+            ref, bibtex = cite.get_cite(ref_title[idx])
+            phrase.append(cite.phrase_bibtex(ref, bibtex))
+        except:
+            failures.append(idx)
+            pass
+    
+    return phrase
 
-
+def enhance(failures, ref_title):
+    phrase = []
+    failure
+        
 cite = cite.Cite()
-phrases = []
-failures = []
-for item in failures_new:
-    try:
-        ref, bibtex = cite.get_cite(ref_texts[item])
-        phrase = cite.phrase_bibtex(bibtex)
-        phrase['ref'] = ref
-        phrases.append(phrase)
-        print('do:', item)
-    except:
-        print('undo:', item)
-        failures.append(item)
-        pass
 
-pd_cite = pd.DataFrame(phrases)
-pd_cite.to_csv('./ref.csv')
+ref_df = pd.read_csv('./ref.csv', index_col=0)
+searched = pd.read_csv('./searched.csv', index_col=0)
+unsearched = pd.read_csv('./unsearched.csv', index_col=0)
+
+phrase = get_paper_ref(searched['title'])
+

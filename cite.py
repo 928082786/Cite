@@ -9,6 +9,9 @@ Created on Wed Oct 28 10:05:13 2020
 from selenium import webdriver
 import time
 from selenium.webdriver.chrome.options import Options
+import re
+import numpy as np
+from bs4 import BeautifulSoup 
 
 '''
 manage papers and dig papers ref network
@@ -86,10 +89,11 @@ class Cite():
          'journal': 'CoRR',
          'year': '2016',
          'volume': 'abs/1511.05122',
-         'ref': 'Sabour, Sara et al. “Adversarial Manipulation of Deep Representations.” CoRR abs/1511.05122 (2016): n. pag.'}
+         'ref': 'Sabour, Sara et al. “Adversarial Manipulation of Deep Representations.” CoRR abs/1511.05122 (2016): n. pag.'
+         'ref_paper': ''}
     '''
     
-    def phrase_bibtex(self, bibtex):
+    def phrase_bibtex(self, ref, bibtex):
         bibtex = self.clean_bibtex(bibtex)
         split_bib = bibtex.split(',')
         keys = ['id']
@@ -100,11 +104,50 @@ class Cite():
             values.append(b)
         phrase = dict(zip(keys, values))
         phrase['author'] = [i.strip() for i in phrase['author'].split('and')]
-    
+        phrase['ref'] = ref
+        phrase['ref_papers'] = ''
         return phrase
     
-    def dig_ref(self, title):
-        pass
-        
+    def delay_do(self, browser, x_path):
+        try:
+            do = browser.find_element_by_xpath(x_path)
+            state = 0
+            return do, state
+        except:
+            state = 1
+            return None, state
     
-        
+    def excute_action(self, browser, x_path):
+        do, state = self.delay_do(browser, x_path)
+        while(state):
+           do, state = self.delay_do(browser, x_path)
+           time.sleep(1)
+        return do
+    
+    def dig_ref(self, title):
+        ref_titles = []
+        chrome_options=Options()
+        chrome_options.add_argument('--headless')
+        browser = webdriver.Chrome(options=chrome_options)
+        #browser = webdriver.Chrome()
+        browser.get('https://www.semanticscholar.org')
+        input_ = browser.find_element_by_xpath('//*[@id="search-form"]/div/div/input')
+        input_.send_keys(title)#传送入关键词
+        button1 = browser.find_element_by_xpath('//*[@id="search-form"]/div/div/button/div/span')
+        button1.click()
+        button2 = self.excute_action(browser, '//*[@id="main-content"]/div[1]/div/div[1]/a')
+        button2.click()
+        while(1):
+            time.sleep(3)
+            ref = browser.find_element_by_xpath('//*[@id="references"]/div[2]')
+            bf = BeautifulSoup(ref.get_attribute('innerHTML'), "html.parser")
+            ref = bf.find_all('div', class_ ='cl-paper-title')
+            ref_titles.extend([i.text for i in ref])
+            if len(ref)<10:
+                break
+            button3 = browser.find_element_by_xpath('//*[@id="references"]/div[2]/div/div[3]/ul/li[4]/a')
+            time.sleep(3)
+            browser.execute_script("arguments[0].click();", button3)
+        browser.quit()
+        return ref_titles
+    
