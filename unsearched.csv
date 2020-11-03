@@ -1,84 +1,1233 @@
-,id,title,author,journal,year,volume,ref,pages,booktitle
-1,@articleGoodfellow2015ExplainingAH,Explaining and Harnessing Adversarial Examples,"['Ian J. Goodfellow', 'Jonathon Shlens', 'Christian Szegedy']",CoRR,2015,abs/1412.6572,"Goodfellow, Ian J. et al. “Explaining and Harnessing Adversarial Examples.” CoRR abs/1412.6572 (2015): n. pag.",,
-2,@articleCarlini2017TowardsET,Towards Evaluating the Robustness of Neural Networks,"['Nicholas Carlini', 'D. Wagner']",2017 IEEE Symposium on Security and Privacy (SP),2017,,"Carlini, Nicholas and D. Wagner. “Towards Evaluating the Robustness of Neural Networks.” 2017 IEEE Symposium on Security and Privacy (SP) (2017): 39-57.",39-57,
-3,@articleKurakin2017AdversarialML,Adversarial Machine Learning at Scale,"['A. Kurakin', 'Ian J. Goodfellow', 'S. Bengio']",ArXiv,2017,abs/1611.01236,"Kurakin, A. et al. “Adversarial Machine Learning at Scale.” ArXiv abs/1611.01236 (2017): n. pag.",,
-4,@articlePapernot2018SoKSA,SoK: Security and Privacy in Machine Learning,"['Nicolas Papernot', 'P. McDaniel', 'Arunesh Sinha', 'Michael P. Wellman']",2018 IEEE European Symposium on Security and Privacy (EuroS&P),2018,,"Papernot, Nicolas et al. “SoK: Security and Privacy in Machine Learning.” 2018 IEEE European Symposium on Security and Privacy (EuroS&P) (2018): 399-414.",399-414,
-5,@articleTramr2018EnsembleAT,Ensemble Adversarial Training: Attacks and Defenses,"['Florian Tram\\`er', 'A. Kurakin', 'Nicolas Papernot', 'D. Boneh', 'P. McDaniel']",ArXiv,2018,abs/1705.07204,"Tramèr, Florian et al. “Ensemble Adversarial Training: Attacks and Defenses.” ArXiv abs/1705.07204 (2018): n. pag.",,
-6,@inproceedingsBuckman2018ThermometerEO,Thermometer Encoding: One Hot Way To Resist Adversarial Examples,"['J. Buckman', 'Aurko Roy', 'Colin Raffel', 'Ian J. Goodfellow']",,2018,,"Buckman, J. et al. “Thermometer Encoding: One Hot Way To Resist Adversarial Examples.” ICLR (2018).",,ICLR
-7,@articleDhillon2018StochasticAP,Stochastic Activation Pruning for Robust Adversarial Defense,"['Guneet S. Dhillon', 'Kamyar Azizzadenesheli', 'Zachary Chase Lipton', 'J. Bernstein', 'Jean Kossaifi', 'A. Khanna', 'Anima An', 'kumar']",ArXiv,2018,abs/1803.01442,"Dhillon, Guneet S. et al. “Stochastic Activation Pruning for Robust Adversarial Defense.” ArXiv abs/1803.01442 (2018): n. pag.",,
-8,@articleSamangouei2018DefenseGANPC,Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models,"['Pouya Samangouei', 'Maya Kabkab', 'R. Chellappa']",ArXiv,2018,abs/1805.06605,"Samangouei, Pouya et al. “Defense-GAN: Protecting Classifiers Against Adversarial Attacks Using Generative Models.” ArXiv abs/1805.06605 (2018): n. pag.",,
-9,@articleGuo2018CounteringAI,Countering Adversarial Images using Input Transformations,"['Chuan Guo', 'Mayank Rana', ""M. Ciss\\'e"", 'L. V. D. Maaten']",ArXiv,2018,abs/1711.00117,"Guo, Chuan et al. “Countering Adversarial Images using Input Transformations.” ArXiv abs/1711.00117 (2018): n. pag.",,
-10,@articleAthalye2018ObfuscatedGG,Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples,"['A. Athalye', 'Nicholas Carlini', 'D. Wagner']",ArXiv,2018,abs/1802.00420,"Athalye, A. et al. “Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples.” ArXiv abs/1802.00420 (2018): n. pag.",,
-11,@inproceedingsGrosse2017AdversarialEF,Adversarial Examples for Malware Detection,"['Kathrin Grosse', 'Nicolas Papernot', 'P. Manoharan', 'M. Backes', 'P. McDaniel']",,2017,,"Grosse, Kathrin et al. “Adversarial Examples for Malware Detection.” ESORICS (2017).",,ESORICS
-12,@articleZhao2018GeneratingNA,Generating Natural Adversarial Examples,"['Zhengli Zhao', 'Dheeru Dua', 'Sameer Singh']",ArXiv,2018,abs/1710.11342,"Zhao, Zhengli et al. “Generating Natural Adversarial Examples.” ArXiv abs/1710.11342 (2018): n. pag.",,
-13,@articleYuan2019AdversarialEA,Adversarial Examples: Attacks and Defenses for Deep Learning,"['Xiaoyong Yuan', 'Pan He', 'Qile Zhu', 'X. Li']",IEEE Transactions on Neural Networks and Learning Systems,2019,30,"Yuan, Xiaoyong et al. “Adversarial Examples: Attacks and Defenses for Deep Learning.” IEEE Transactions on Neural Networks and Learning Systems 30 (2019): 2805-2824.",2805-2824,
-14,@articleAkhtar2018ThreatOA,Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey,"['N. Akhtar', 'A. Mian']",IEEE Access,2018,6,"Akhtar, N. and A. Mian. “Threat of Adversarial Attacks on Deep Learning in Computer Vision: A Survey.” IEEE Access 6 (2018): 14410-14430.",14410-14430,
-15,@articleLiu2019DPATCHAA,DPATCH: An Adversarial Patch Attack on Object Detectors,"['Xin Liu', 'Huanrui Yang', 'Z. Liu', 'Linghao Song', 'Yiran Chen', 'Hai Li']",arXiv: Computer Vision and Pattern Recognition,2019,,"Liu, Xin et al. “DPATCH: An Adversarial Patch Attack on Object Detectors.” arXiv: Computer Vision and Pattern Recognition (2019): n. pag.",,
-16,@articlePapernot2016TransferabilityIM,Transferability in Machine Learning: from Phenomena to Black-Box Attacks using Adversarial Samples,"['Nicolas Papernot', 'P. McDaniel', 'Ian J. Goodfellow']",ArXiv,2016,abs/1605.07277,"Papernot, Nicolas et al. “Transferability in Machine Learning: from Phenomena to Black-Box Attacks using Adversarial Samples.” ArXiv abs/1605.07277 (2016): n. pag.",,
-17,@articleLiu2017DelvingIT,Delving into Transferable Adversarial Examples and Black-box Attacks,"['Y. Liu', 'X. Chen', 'Chang Liu', 'D. Song']",ArXiv,2017,abs/1611.02770,"Liu, Y. et al. “Delving into Transferable Adversarial Examples and Black-box Attacks.” ArXiv abs/1611.02770 (2017): n. pag.",,
-18,@inproceedingsGoodfellow2013MaxoutN,Maxout Networks,"['Ian J. Goodfellow', 'David Warde-Farley', 'M. Mirza', 'Aaron C. Courville', 'Yoshua Bengio']",,2013,,"Goodfellow, Ian J. et al. “Maxout Networks.” ICML (2013).",,ICML
-19,@articleKurakin2017AdversarialEI,Adversarial examples in the physical world,"['A. Kurakin', 'Ian J. Goodfellow', 'S. Bengio']",ArXiv,2017,abs/1607.02533,"Kurakin, A. et al. “Adversarial examples in the physical world.” ArXiv abs/1607.02533 (2017): n. pag.",,
-20,@articleMoosaviDezfooli2016DeepFoolAS,DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks,"['Seyed-Mohsen Moosavi-Dezfooli', 'Alhussein Fawzi', 'P. Frossard']",2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR),2016,,"Moosavi-Dezfooli, Seyed-Mohsen et al. “DeepFool: A Simple and Accurate Method to Fool Deep Neural Networks.” 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2016): 2574-2582.",2574-2582,
-21,@articlePapernot2016TheLO,The Limitations of Deep Learning in Adversarial Settings,"['Nicolas Papernot', 'P. McDaniel', 'S. Jha', 'Matt Fredrikson', 'Z. Y. Celik', 'A. Swami']",2016 IEEE European Symposium on Security and Privacy (EuroS&P),2016,,"Papernot, Nicolas et al. “The Limitations of Deep Learning in Adversarial Settings.” 2016 IEEE European Symposium on Security and Privacy (EuroS&P) (2016): 372-387.",372-387,
-22,@articleRozsa2016AdversarialDA,Adversarial Diversity and Hard Positive Generation,"['Andras Rozsa', 'Ethan M. Rudd', 'T. Boult']",2016 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW),2016,,"Rozsa, Andras et al. “Adversarial Diversity and Hard Positive Generation.” 2016 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW) (2016): 410-417.",410-417,
-23,@articleMoosaviDezfooli2017UniversalAP,Universal Adversarial Perturbations,"['Seyed-Mohsen Moosavi-Dezfooli', 'Alhussein Fawzi', 'Omar Fawzi', 'P. Frossard']",2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR),2017,,"Moosavi-Dezfooli, Seyed-Mohsen et al. “Universal Adversarial Perturbations.” 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2017): 86-94.",86-94,
-24,@articleKos2018AdversarialEF,Adversarial Examples for Generative Models,"['J. Kos', 'I. Fischer', 'D. Song']",2018 IEEE Security and Privacy Workshops (SPW),2018,,"Kos, J. et al. “Adversarial Examples for Generative Models.” 2018 IEEE Security and Privacy Workshops (SPW) (2018): 36-42.",36-42,
-25,@inproceedingsBaluja2018LearningTA,Learning to Attack: Adversarial Transformation Networks,"['S. Baluja', 'Ian S. Fischer']",,2018,,"Baluja, S. and Ian S. Fischer. “Learning to Attack: Adversarial Transformation Networks.” AAAI (2018).",,AAAI
-26,@articleXie2017AdversarialEF,Adversarial Examples for Semantic Segmentation and Object Detection,"['Cihang Xie', 'Jianyu Wang', 'Zhishuai Zhang', 'Yuyin Zhou', 'Lingxi Xie', 'A. Yuille']",2017 IEEE International Conference on Computer Vision (ICCV),2017,,"Xie, Cihang et al. “Adversarial Examples for Semantic Segmentation and Object Detection.” 2017 IEEE International Conference on Computer Vision (ICCV) (2017): 1378-1387.",1378-1387,
-27,@articleChen2017ZOOZO,ZOO: Zeroth Order Optimization Based Black-box Attacks to Deep Neural Networks without Training Substitute Models,"['P. Chen', 'Huan Zhang', 'Yash Sharma', 'Jinfeng Yi', 'Cho-Jui Hsieh']",Proceedings of the 10th ACM Workshop on Artificial Intelligence and Security,2017,,"Chen, P. et al. “ZOO: Zeroth Order Optimization Based Black-box Attacks to Deep Neural Networks without Training Substitute Models.” Proceedings of the 10th ACM Workshop on Artificial Intelligence and Security (2017): n. pag.",,
-28,@articleSu2019OnePA,One Pixel Attack for Fooling Deep Neural Networks,"['Jiawei Su', 'Danilo Vasconcellos Vargas', 'K. Sakurai']",IEEE Transactions on Evolutionary Computation,2019,23,"Su, Jiawei et al. “One Pixel Attack for Fooling Deep Neural Networks.” IEEE Transactions on Evolutionary Computation 23 (2019): 828-841.",828-841,
-29,@articleDong2018BoostingAA,Boosting Adversarial Attacks with Momentum,"['Yinpeng Dong', 'Fangzhou Liao', 'Tianyu Pang', 'H. Su', 'J. Zhu', 'Xiaolin Hu', 'J. Li']",2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition,2018,,"Dong, Yinpeng et al. “Boosting Adversarial Attacks with Momentum.” 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (2018): 9185-9193.",9185-9193,
-30,@articleXiao2018GeneratingAE,Generating Adversarial Examples with Adversarial Networks,"['Chaowei Xiao', 'Bo Li', 'Jun-Yan Zhu', 'Warren He', 'M. Liu', 'D. Song']",ArXiv,2018,abs/1801.02610,"Xiao, Chaowei et al. “Generating Adversarial Examples with Adversarial Networks.” ArXiv abs/1801.02610 (2018): n. pag.",,
-31,@articleBrendel2018DecisionBasedAA,Decision-Based Adversarial Attacks: Reliable Attacks Against Black-Box Machine Learning Models,"['W. Brendel', 'Jonas Rauber', 'M. Bethge']",ArXiv,2018,abs/1712.04248,"Brendel, W. et al. “Decision-Based Adversarial Attacks: Reliable Attacks Against Black-Box Machine Learning Models.” ArXiv abs/1712.04248 (2018): n. pag.",,
-32,@articleXiao2018SpatiallyTA,Spatially Transformed Adversarial Examples,"['Chaowei Xiao', 'Jun-Yan Zhu', 'Bo Li', 'Warren He', 'M. Liu', 'D. Song']",ArXiv,2018,abs/1801.02612,"Xiao, Chaowei et al. “Spatially Transformed Adversarial Examples.” ArXiv abs/1801.02612 (2018): n. pag.",,
-33,@articleAthalye2018SynthesizingRA,Synthesizing Robust Adversarial Examples,"['A. Athalye', 'L. Engstrom', 'Andrew Ilyas', 'Kevin Kwok']",ArXiv,2018,abs/1707.07397,"Athalye, A. et al. “Synthesizing Robust Adversarial Examples.” ArXiv abs/1707.07397 (2018): n. pag.",,
-34,@articleUesato2018AdversarialRA,Adversarial Risk and the Dangers of Evaluating Against Weak Attacks,"['Jonathan Uesato', ""Brendan O'Donoghue"", 'A. Oord', 'Pushmeet Kohli']",ArXiv,2018,abs/1802.05666,"Uesato, Jonathan et al. “Adversarial Risk and the Dangers of Evaluating Against Weak Attacks.” ArXiv abs/1802.05666 (2018): n. pag.",,
-35,@articleHuang2017AdversarialAO,Adversarial Attacks on Neural Network Policies,"['S', 'y H. Huang', 'Nicolas Papernot', 'Ian J. Goodfellow', 'Yan Duan', 'P. Abbeel']",ArXiv,2017,abs/1702.02284,"Huang, Sandy H. et al. “Adversarial Attacks on Neural Network Policies.” ArXiv abs/1702.02284 (2017): n. pag.",,
-36,@articleFischer2017AdversarialEF,Adversarial Examples for Semantic Image Segmentation,"['Volker Fischer', 'Mummadi Chaithanya Kumar', 'J. H. Metzen', 'T. Brox']",ArXiv,2017,abs/1703.01101,"Fischer, Volker et al. “Adversarial Examples for Semantic Image Segmentation.” ArXiv abs/1703.01101 (2017): n. pag.",,
-37,@articleKurakin2018AdversarialAA,Adversarial Attacks and Defences Competition,"['A. Kurakin', 'Ian J. Goodfellow', 'S. Bengio', 'Yinpeng Dong', 'Fangzhou Liao', 'M. Liang', 'Tianyu Pang', 'Jun Zhu', 'Xiaolin Hu', 'Cihang Xie', 'Jianyu Wang', 'Zhishuai Zhang', 'Zhou Ren', 'A. Yuille', 'Sangxia Huang', 'Y. Zhao', 'Zhonglin Han', 'J. Long', 'Yerkebulan Berdibekov', 'Takuya Akiba', 'Seiya Tokui', 'M. Abe']",ArXiv,2018,abs/1804.00097,"Kurakin, A. et al. “Adversarial Attacks and Defences Competition.” ArXiv abs/1804.00097 (2018): n. pag.",,
-38,@inproceedingsArjovsky2017WassersteinGA,Wasserstein Generative Adversarial Networks,"[""Mart\\'in Arjovsky"", 'Soumith Chintala', 'L. Bottou']",,2017,,"Arjovsky, Martín et al. “Wasserstein Generative Adversarial Networks.” ICML (2017).",,ICML
-39,@inproceedingsChen2018RobustPA,Robust Physical Adversarial Attack on Faster R-CNN Object Detector,"['Shang-Tse Chen', 'Cory Cornelius', 'J. Martin', 'Duen Horng Chau']",,2018,,"Chen, Shang-Tse et al. “Robust Physical Adversarial Attack on Faster R-CNN Object Detector.” ECML/PKDD (2018).",,ECML/PKDD
-40,@articleLiao2018DefenseAA,Defense Against Adversarial Attacks Using High-Level Representation Guided Denoiser,"['Fangzhou Liao', 'Ming Liang', 'Yinpeng Dong', 'Tianyu Pang', 'J. Zhu', 'Xiaolin Hu']",2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition,2018,,"Liao, Fangzhou et al. “Defense Against Adversarial Attacks Using High-Level Representation Guided Denoiser.” 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (2018): 1778-1787.",1778-1787,
-41,@articleSaadatpanah2019AdversarialAO,Adversarial attacks on Copyright Detection Systems,"['Parsa Saadatpanah', 'A. Shafahi', 'T. Goldstein']",ArXiv,2019,abs/1906.07153,"Saadatpanah, Parsa et al. “Adversarial attacks on Copyright Detection Systems.” ArXiv abs/1906.07153 (2019): n. pag.",,
-42,@articleHaenssle2018ManAM,Man against machine: diagnostic performance of a deep learning convolutional neural network for dermoscopic melanoma recognition in comparison to 58 dermatologists,"['H. Haenssle', 'C. Fink', 'R. Schneiderbauer', 'F. Toberer', 'T. Buhl', 'A. Blum', 'A. Kalloo', 'A. Hassen', 'L. Thomas', 'A. Enk', 'L. Uhlmann']",Annals of Oncology,2018,29,"Haenssle, H. et al. “Man against machine: diagnostic performance of a deep learning convolutional neural network for dermoscopic melanoma recognition in comparison to 58 dermatologists.” Annals of Oncology 29 (2018): 1836–1842.",1836–1842,
-43,@articleFinlayson2018AdversarialAA,Adversarial Attacks Against Medical Deep Learning Systems,"['Samuel G. Finlayson', 'I. Kohane', 'Andrew Beam']",ArXiv,2018,abs/1804.05296,"Finlayson, Samuel G. et al. “Adversarial Attacks Against Medical Deep Learning Systems.” ArXiv abs/1804.05296 (2018): n. pag.",,
-44,@articleGu2015TowardsDN,Towards Deep Neural Network Architectures Robust to Adversarial Examples,"['Shixiang Gu', 'Luca Rigazio']",CoRR,2015,abs/1412.5068,"Gu, Shixiang and Luca Rigazio. “Towards Deep Neural Network Architectures Robust to Adversarial Examples.” CoRR abs/1412.5068 (2015): n. pag.",,
-45,@articleCarlini2016DefensiveDI,Defensive Distillation is Not Robust to Adversarial Examples,"['Nicholas Carlini', 'D. Wagner']",ArXiv,2016,abs/1607.04311,"Carlini, Nicholas and D. Wagner. “Defensive Distillation is Not Robust to Adversarial Examples.” ArXiv abs/1607.04311 (2016): n. pag.",,
-46,@articleKannan2018AdversarialLP,Adversarial Logit Pairing,"['Harini Kannan', 'A. Kurakin', 'Ian J. Goodfellow']",ArXiv,2018,abs/1803.06373,"Kannan, Harini et al. “Adversarial Logit Pairing.” ArXiv abs/1803.06373 (2018): n. pag.",,
-47,@articleLamb2018FortifiedNI,Fortified Networks: Improving the Robustness of Deep Networks by Modeling the Manifold of Hidden Representations,"['Alex Lamb', 'Jonathan Binas', 'Anirudh Goyal', 'Dmitriy Serdyuk', 'S', 'eep Subramanian', 'Ioannis Mitliagkas', 'Yoshua Bengio']",ArXiv,2018,abs/1804.02485,"Lamb, Alex et al. “Fortified Networks: Improving the Robustness of Deep Networks by Modeling the Manifold of Hidden Representations.” ArXiv abs/1804.02485 (2018): n. pag.",,
-48,@articleSchott2019TowardsTF,Towards the first adversarially robust neural network model on MNIST,"['Lukas Schott', 'Jonas Rauber', 'M. Bethge', 'W. Brendel']",arXiv: Computer Vision and Pattern Recognition,2019,,"Schott, Lukas et al. “Towards the first adversarially robust neural network model on MNIST.” arXiv: Computer Vision and Pattern Recognition (2019): n. pag.",,
-49,@articleDubey2019DefenseAA,Defense Against Adversarial Images Using Web-Scale Nearest-Neighbor Search,"['A. Dubey', 'L. V. D. Maaten', 'Zeki Yalniz', 'Y. Li', 'D. Mahajan']",2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR),2019,,"Dubey, A. et al. “Defense Against Adversarial Images Using Web-Scale Nearest-Neighbor Search.” 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2019): 8759-8768.",8759-8768,
-50,@articleYang2019MENetTE,ME-Net: Towards Effective Adversarial Robustness with Matrix Estimation,"['Yuzhe Yang', 'G. Zhang', 'D. Katabi', 'Zhi Xu']",ArXiv,2019,abs/1905.11971,"Yang, Yuzhe et al. “ME-Net: Towards Effective Adversarial Robustness with Matrix Estimation.” ArXiv abs/1905.11971 (2019): n. pag.",,
-51,@articleMetzen2017OnDA,On Detecting Adversarial Perturbations,"['J. H. Metzen', 'Tim Genewein', 'Volker Fischer', 'B. Bischoff']",ArXiv,2017,abs/1702.04267,"Metzen, J. H. et al. “On Detecting Adversarial Perturbations.” ArXiv abs/1702.04267 (2017): n. pag.",,
-52,@articleGong2017AdversarialAC,Adversarial and Clean Data Are Not Twins,"['Zhitao Gong', 'Wenlu Wang', 'W. Ku']",ArXiv,2017,abs/1704.04960,"Gong, Zhitao et al. “Adversarial and Clean Data Are Not Twins.” ArXiv abs/1704.04960 (2017): n. pag.",,
-53,@articleHosseini2017BlockingTO,Blocking Transferability of Adversarial Examples in Black-Box Learning Systems,"['H. Hosseini', 'Yize Chen', 'S. Kannan', 'B. Zhang', 'R. Poovendran']",ArXiv,2017,abs/1703.04318,"Hosseini, H. et al. “Blocking Transferability of Adversarial Examples in Black-Box Learning Systems.” ArXiv abs/1703.04318 (2017): n. pag.",,
-54,@articleFeinman2017DetectingAS,Detecting Adversarial Samples from Artifacts,"['Reuben Feinman', 'Ryan R. Curtin', 'S. Shintre', 'Andrew B. Gardner']",ArXiv,2017,abs/1703.00410,"Feinman, Reuben et al. “Detecting Adversarial Samples from Artifacts.” ArXiv abs/1703.00410 (2017): n. pag.",,
-55,@articleXu2018FeatureSD,Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks,"['Weilin Xu', 'David Evans', 'Y. Qi']",ArXiv,2018,abs/1704.01155,"Xu, Weilin et al. “Feature Squeezing: Detecting Adversarial Examples in Deep Neural Networks.” ArXiv abs/1704.01155 (2018): n. pag.",,
-56,@articleShaham2018UnderstandingAT,Understanding adversarial training: Increasing local stability of supervised models through robust optimization,"['Uri Shaham', 'Yutaro Yamada', 'Sah', 'N. Negahban']",Neurocomputing,2018,307,"Shaham, Uri et al. “Understanding adversarial training: Increasing local stability of supervised models through robust optimization.” Neurocomputing 307 (2018): 195-204.",195-204,
-57,@articleEsfahani2018DatadrivenDR,Data-driven distributionally robust optimization using the Wasserstein metric: performance guarantees and tractable reformulations,"['Peyman Mohajerin Esfahani', 'D. Kuhn']",Mathematical Programming,2018,171,"Esfahani, Peyman Mohajerin and D. Kuhn. “Data-driven distributionally robust optimization using the Wasserstein metric: performance guarantees and tractable reformulations.” Mathematical Programming 171 (2018): 115-166.",115-166,
-58,@articleTsipras2019RobustnessMB,Robustness May Be at Odds with Accuracy,"['D. Tsipras', 'Shibani Santurkar', 'L. Engstrom', 'A. Turner', 'A. Madry']",arXiv: Machine Learning,2019,,"Tsipras, D. et al. “Robustness May Be at Odds with Accuracy.” arXiv: Machine Learning (2019): n. pag.",,
-59,@articleEngstrom2019LearningPR,Learning Perceptually-Aligned Representations via Adversarial Robustness,"['L. Engstrom', 'Andrew Ilyas', 'Shibani Santurkar', 'D. Tsipras', 'B. Tran', 'A. Madry']",ArXiv,2019,abs/1906.00945,"Engstrom, L. et al. “Learning Perceptually-Aligned Representations via Adversarial Robustness.” ArXiv abs/1906.00945 (2019): n. pag.",,
-60,@articleTramr2019AdversarialTA,Adversarial Training and Robustness for Multiple Perturbations,"['Florian Tram\\`er', 'D. Boneh']",ArXiv,2019,abs/1904.13000,"Tramèr, Florian and D. Boneh. “Adversarial Training and Robustness for Multiple Perturbations.” ArXiv abs/1904.13000 (2019): n. pag.",,
-61,@articleKang2019TransferOA,Transfer of Adversarial Robustness Between Perturbation Types,"['Daniel Kang', 'Y. Sun', 'Tom Brown', 'Dan Hendrycks', 'J. Steinhardt']",ArXiv,2019,abs/1905.01034,"Kang, Daniel et al. “Transfer of Adversarial Robustness Between Perturbation Types.” ArXiv abs/1905.01034 (2019): n. pag.",,
-62,@articleDziugaite2016ASO,A study of the effect of JPG compression on adversarial images,"['G. Dziugaite', 'Zoubin Ghahramani', 'D. Roy']",ArXiv,2016,abs/1608.00853,"Dziugaite, G. et al. “A study of the effect of JPG compression on adversarial images.” ArXiv abs/1608.00853 (2016): n. pag.",,
-63,@inproceedingsKolter2018ProvableDA,Provable defenses against adversarial examples via the convex outer adversarial polytope,"['J. Z. Kolter', 'E. Wong']",,2018,,"Kolter, J. Z. and E. Wong. “Provable defenses against adversarial examples via the convex outer adversarial polytope.” ICML (2018).",,ICML
-64,@articleRaghunathan2018CertifiedDA,Certified Defenses against Adversarial Examples,"['Aditi Raghunathan', 'J. Steinhardt', 'Percy Liang']",ArXiv,2018,abs/1801.09344,"Raghunathan, Aditi et al. “Certified Defenses against Adversarial Examples.” ArXiv abs/1801.09344 (2018): n. pag.",,
-65,@inproceedingsVincent2008ExtractingAC,Extracting and composing robust features with denoising autoencoders,"['Pascal Vincent', 'H. Larochelle', 'Yoshua Bengio', 'Pierre-Antoine Manzagol']",,2008,,"Vincent, Pascal et al. “Extracting and composing robust features with denoising autoencoders.” ICML '08 (2008).",,ICML '08
-66,@articleCarlini2017AdversarialEA,Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods,"['N. Carlini', 'D. Wagner']",Proceedings of the 10th ACM Workshop on Artificial Intelligence and Security,2017,,"Carlini, N. and D. Wagner. “Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods.” Proceedings of the 10th ACM Workshop on Artificial Intelligence and Security (2017): n. pag.",,
-67,@articleTramr2017TheSO,The Space of Transferable Adversarial Examples,"['Florian Tram\\`er', 'Nicolas Papernot', 'Ian J. Goodfellow', 'D. Boneh', 'P. McDaniel']",ArXiv,2017,abs/1704.03453,"Tramèr, Florian et al. “The Space of Transferable Adversarial Examples.” ArXiv abs/1704.03453 (2017): n. pag.",,
-68,@articleEtmann2019OnTC,On the Connection Between Adversarial Robustness and Saliency Map Interpretability,"['Christian Etmann', 'S. Lunz', 'P. Maass', 'C. Sch\\""onlieb']",ArXiv,2019,abs/1905.04172,"Etmann, Christian et al. “On the Connection Between Adversarial Robustness and Saliency Map Interpretability.” ArXiv abs/1905.04172 (2019): n. pag.",,
-69,@articleGeirhos2019ImageNettrainedCA,ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness,"['Robert Geirhos', 'Patricia Rubisch', 'Claudio Michaelis', 'M. Bethge', 'F. Wichmann', 'W. Brendel']",ArXiv,2019,abs/1811.12231,"Geirhos, Robert et al. “ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness.” ArXiv abs/1811.12231 (2019): n. pag.",,
-70,@articleCarlini2019OnEA,On Evaluating Adversarial Robustness,"['Nicholas Carlini', 'A. Athalye', 'Nicolas Papernot', 'W. Brendel', 'Jonas Rauber', 'D. Tsipras', 'Ian J. Goodfellow', 'A. Madry', 'A. Kurakin']",ArXiv,2019,abs/1902.06705,"Carlini, Nicholas et al. “On Evaluating Adversarial Robustness.” ArXiv abs/1902.06705 (2019): n. pag.",,
-71,@inproceedingsLiu2019BeyondPN,Beyond Pixel Norm-Balls: Parametric Adversaries using an Analytically Differentiable Renderer,"['Hsueh-Ti Derek Liu', 'Michael Tao', 'C. Li', 'Derek Nowrouzezahrai', 'Alec Jacobson']",,2019,,"Liu, Hsueh-Ti Derek et al. “Beyond Pixel Norm-Balls: Parametric Adversaries using an Analytically Differentiable Renderer.” ICLR (2019).",,ICLR
-72,@articlePapernot2016DistillationAA,Distillation as a Defense to Adversarial Perturbations Against Deep Neural Networks,"['Nicolas Papernot', 'P. McDaniel', 'Xi Wu', 'S. Jha', 'A. Swami']",2016 IEEE Symposium on Security and Privacy (SP),2016,,"Papernot, Nicolas et al. “Distillation as a Defense to Adversarial Perturbations Against Deep Neural Networks.” 2016 IEEE Symposium on Security and Privacy (SP) (2016): 582-597.",582-597,
-73,@articleMa2018CharacterizingAS,Characterizing Adversarial Subspaces Using Local Intrinsic Dimensionality,"['Xingjun Ma', 'Bo Li', 'Yisen Wang', 'S. Erfani', 'S. Wijewickrema', 'M. E. Houle', 'Grant Schoenebeck', 'D. Song', 'J. Bailey']",ArXiv,2018,abs/1801.02613,"Ma, Xingjun et al. “Characterizing Adversarial Subspaces Using Local Intrinsic Dimensionality.” ArXiv abs/1801.02613 (2018): n. pag.",,
-74,@articleXie2018MitigatingAE,Mitigating adversarial effects through randomization,"['Cihang Xie', 'Jianyu Wang', 'Zhishuai Zhang', 'Zhou Ren', 'A. Yuille']",ArXiv,2018,abs/1711.01991,"Xie, Cihang et al. “Mitigating adversarial effects through randomization.” ArXiv abs/1711.01991 (2018): n. pag.",,
-75,@articleSong2018PixelDefendLG,PixelDefend: Leveraging Generative Models to Understand and Defend against Adversarial Examples,"['Yang Song', 'Taesup Kim', 'Sebastian Nowozin', 'S. Ermon', 'Nate Kushman']",ArXiv,2018,abs/1710.10766,"Song, Yang et al. “PixelDefend: Leveraging Generative Models to Understand and Defend against Adversarial Examples.” ArXiv abs/1710.10766 (2018): n. pag.",,
-76,@articleSharif2016AccessorizeTA,Accessorize to a Crime: Real and Stealthy Attacks on State-of-the-Art Face Recognition,"['Mahmood Sharif', 'Sruti Bhagavatula', 'L. Bauer', 'M. Reiter']",Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security,2016,,"Sharif, Mahmood et al. “Accessorize to a Crime: Real and Stealthy Attacks on State-of-the-Art Face Recognition.” Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security (2016): n. pag.",,
-77,@articlePapernot2016TransferabilityIM,Transferability in Machine Learning: from Phenomena to Black-Box Attacks using Adversarial Samples,"['Nicolas Papernot', 'P. McDaniel', 'Ian J. Goodfellow']",ArXiv,2016,abs/1605.07277,"Papernot, Nicolas et al. “Transferability in Machine Learning: from Phenomena to Black-Box Attacks using Adversarial Samples.” ArXiv abs/1605.07277 (2016): n. pag.",,
-78,@articleHochreiter1998TheVG,The Vanishing Gradient Problem During Learning Recurrent Neural Nets and Problem Solutions,['S. Hochreiter'],Int. J. Uncertain. Fuzziness Knowl. Based Syst.,1998,6,"Hochreiter, S.. “The Vanishing Gradient Problem During Learning Recurrent Neural Nets and Problem Solutions.” Int. J. Uncertain. Fuzziness Knowl. Based Syst. 6 (1998): 107-116.",107-116,
-79,@articleRony2019DecouplingDA,Decoupling Direction and Norm for Efficient Gradient-Based L2 Adversarial Attacks and Defenses,"[""J\\'er\\^ome Rony"", 'Luiz G. Hafemann', 'L. Oliveira', 'I. B. Ayed', 'R. Sabourin', 'Eric Granger']",2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR),2019,,"Rony, Jérôme et al. “Decoupling Direction and Norm for Efficient Gradient-Based L2 Adversarial Attacks and Defenses.” 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2019): 4317-4325.",4317-4325,
-80,@articleEngstrom2018EvaluatingAU,Evaluating and Understanding the Robustness of Adversarial Logit Pairing,"['L. Engstrom', 'Andrew Ilyas', 'A. Athalye']",ArXiv,2018,abs/1807.10272,"Engstrom, L. et al. “Evaluating and Understanding the Robustness of Adversarial Logit Pairing.” ArXiv abs/1807.10272 (2018): n. pag.",,
-81,@articlePang2017RobustDL,Robust Deep Learning via Reverse Cross-Entropy Training and Thresholding Test,"['T. Pang', 'Chao Du', 'J. Zhu']",ArXiv,2017,abs/1706.00633,"Pang, T. et al. “Robust Deep Learning via Reverse Cross-Entropy Training and Thresholding Test.” ArXiv abs/1706.00633 (2017): n. pag.",,
-82,@articleHuang2015LearningWA,Learning with a Strong Adversary,"['Ruitong Huang', 'B. Xu', 'Dale Schuurmans', 'Csaba Szepesvari']",ArXiv,2015,abs/1511.03034,"Huang, Ruitong et al. “Learning with a Strong Adversary.” ArXiv abs/1511.03034 (2015): n. pag.",,
-83,@articleSabour2016AdversarialMO,Adversarial Manipulation of Deep Representations,"['Sara Sabour', 'Yanshuai Cao', 'Fartash Faghri', 'David J. Fleet']",CoRR,2016,abs/1511.05122,"Sabour, Sara et al. “Adversarial Manipulation of Deep Representations.” CoRR abs/1511.05122 (2016): n. pag.",,
+,0
+0,Measuring Invariances in Deep Networks
+1,Visualizing Higher-Layer Features of a Deep Network
+2,Learning Deep Architectures for AI
+3,Building high-level features using large scale unsupervised learning
+4,Visualizing and Understanding Convolutional Networks
+5,ImageNet classification with deep convolutional neural networks
+6,"A discriminatively trained, multiscale, deformable part model"
+7,Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+8,Deep Neural Networks for Acoustic Modeling in Speech Recognition: The Shared Views of Four Research Groups
+9,Efficient Estimation of Word Representations in Vector Space
+10,ImageNet: A large-scale hierarchical image database
+11,How to Explain Individual Classification Decisions
+12,"Severe Outcomes Among Patients with Coronavirus Disease 2019 (COVID-19) - United States, February 12-March 16, 2020."
+13,The mnist database of handwritten digits
+14,Visualizing and Understanding Convolutional Neural Networks
+15,Neural Networks with Adaptive Activation Functions
+16,Survey on Deep Neural Networks in Speech using Natural Language Processing
+17,Dropout: a simple way to prevent neural networks from overfitting
+18,Learning Multiple Layers of Features from Tiny Images
+19,Deep neural networks are easily fooled: High confidence predictions for unrecognizable images
+20,Going deeper with convolutions
+21,Long Short-Term Memory
+22,Large Scale Distributed Deep Networks
+23,Multi-Prediction Deep Boltzmann Machines
+24,Theano: A CPU and GPU Math Compiler in Python
+25,Deep Residual Learning for Image Recognition
+26,Adam: A Method for Stochastic Optimization
+27,Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift
+28,Gradient-based learning applied to document recognition
+29,Rethinking the Inception Architecture for Computer Vision
+30,Human-level control through deep reinforcement learning
+31,Mastering the game of Go with deep neural networks and tree search
+32,Distilling the Knowledge in a Neural Network
+33,Speech recognition with deep recurrent neural networks
+34,ImageNet Large Scale Visual Recognition Challenge
+35,Anomaly detection: A survey
+36,Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)
+37,Striving for Simplicity: The All Convolutional Net
+38,Safety Verification of Deep Neural Networks
+39,Adversarial Perturbations Against Deep Neural Networks for Malware Classification
+40,GradientBased Learning Applied to Document Recognition
+41,Playing Atari with Deep Reinforcement Learning
+42,Measuring Neural Net Robustness with Constraints
+43,Rectifier Nonlinearities Improve Neural Network Acoustic Models
+44,End to End Learning for Self-Driving Cars
+45,Technical Report on the CleverHans v2.1.0 Adversarial Examples Library
+46,Cleverhans V0.1: an Adversarial Machine Learning Library
+47,All you need is a good init
+48,Malware classification with recurrent networks
+49,Large-scale malware classification using random projections and neural networks
+50,The vermiform appendix impacts the risk of developing Parkinson’s disease
+51,"Fast, Lean, and Accurate: Modeling Password Guessability Using Neural Networks"
+52,Fractional Max-Pooling
+53,Hidden Voice Commands
+54,Globally Normalized Transition-Based Neural Networks
+55,A Machine Learning Approach to Visual Perception of Forest Trails for Mobile Robots
+56,Droid-Sec: deep learning in android malware detection
+57,On the Effectiveness of Defensive Distillation
+58,Neural Networks in Mobile Robot Motion
+59,1 Adversarial Perturbations of Deep Neural Networks
+60,Understanding Adversarial Training: Increasing Local Stability of Neural Nets through Robust Optimization
+61,Practical Black-Box Attacks against Deep Learning Systems using Adversarial Examples
+62,Evasion Attacks against Machine Learning at Test Time
+63,Are Accuracy and Robustness Correlated
+64,Adversarial Training Methods for Semi-Supervised Text Classification
+65,Distributional Smoothing with Virtual Adversarial Training
+66,Adversarial classification: An adversarial risk analysis approach
+67,Virtual Adversarial Training for Semi-Supervised Text Classification
+68,"Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning"
+69,Published as a conference paper at ICLR 2018 S IMULATING A CTION D YNAMICS WITH N EURAL P ROCESS N ETWORKS
+70,Stealing Machine Learning Models via Prediction APIs
+71,Practical Black-Box Attacks against Machine Learning
+72,Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures
+73,Privacy-preserving deep learning
+74,Membership Inference Attacks Against Machine Learning Models
+75,Can machine learning be secure?
+76,ANTIDOTE: understanding and defending against poisoning of anomaly detectors
+77,Certified Defenses for Data Poisoning Attacks
+78,Learning in the presence of malicious errors
+79,Is Feature Selection Secure against Training Data Poisoning?
+80,Hacking smart machines with smarter ones: How to extract meaningful data from machine learning classifiers
+81,Systematic Poisoning Attacks on and Defenses for Machine Learning in Healthcare
+82,Differential Privacy: A Survey of Results
+83,Generative Adversarial Nets
+84,Deep Learning
+85,Practical Evasion of a Learning-Based Classifier: A Case Study
+86,The Algorithmic Foundations of Differential Privacy
+87,Poisoning Attacks against Support Vector Machines
+88,CryptoNets: applying neural networks to encrypted data with high throughput and accuracy
+89,Online Anomaly Detection under Adversarial Impact
+90,Differentially Private Empirical Risk Minimization
+91,Semi-supervised Knowledge Transfer for Deep Learning from Private Training Data
+92,Censoring Representations with an Adversary
+93,Deep Learning with Differential Privacy
+94,LOGAN: Evaluating Privacy Leakage of Generative Models Using Generative Adversarial Networks
+95,Machine learning - a probabilistic perspective
+96,"""Why Should I Trust You?"": Explaining the Predictions of Any Classifier"
+97,Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
+98,Using Machine Teaching to Identify Optimal Training-Set Attacks on Machine Learners
+99,Support Vector Machines Under Adversarial Label Noise
+100,No free lunch in data privacy
+101,Oblivious Multi-Party Machine Learning on Trusted Processors
+102,Security And Game Theory Algorithms Deployed Systems Lessons Learned
+103,Honware: A Virtual Honeypot Framework for Capturing CPE and IoT Zero Days
+104,Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers
+105,Optimal randomized classification in adversarial settings
+106,Data Poisoning Attacks against Autoregressive Models
+107,Several important problems in concrete production
+108,What Can We Learn Privately?
+109,Learning privately from multiparty data
+110,ON DATA BANKS AND PRIVACY HOMOMORPHISMS
+111,Learning Adversary Behavior in Security Games: A PAC Model Perspective
+112,Big Data's Disparate Impact
+113,Bounding an Attack ’ s Complexity for a Simple Learning Model
+114,Privacy in Pharmacogenetics: An End-to-End Case Study of Personalized Warfarin Dosing
+115,Mining time-changing data streams
+116,Poisoning behavioral malware clustering
+117,RAPPOR: Randomized Aggregatable Privacy-Preserving Ordinal Response
+118,From physical security to cybersecurity
+119,Polygraph: automatically generating signatures for polymorphic worms
+120,Understanding Black-box Predictions via Influence Functions
+121,Vulnerability of Deep Reinforcement Learning to Policy Induction Attacks
+122,Misleading worm signature generators using deliberate noise injection
+123,Sequence to Sequence Learning with Neural Networks
+124,Static Analysis of Executables to Detect Malicious Patterns
+125,Statistical fraud detection: A review
+126,Query Strategies for Evading Convex-Inducing Classifiers
+127,Stackelberg games for adversarial prediction problems
+128,Fairness Constraints: Mechanisms for Fair Classification
+129,Private Empirical Risk Minimization: Efficient Algorithms and Tight Error Bounds
+130,Next Generation Intrusion Detection: Autonomous Reinforcement Learning of Network Attacks
+131,Adversarial Label Flips Attack on Support Vector Machines
+132,"ConvNets and ImageNet Beyond Accuracy: Explanations, Bias Detection, Adversarial Examples and Model Criticism"
+133,Reinforcement Learning: An Introduction
+134,Dropout Inference in Bayesian Neural Networks with Alpha-divergences
+135,Noise Tolerance Under Risk Minimization
+136,Anomaly Based Network Intrusion Detection with Unsupervised Outlier Detection
+137,Fairness through awareness
+138,"Evaluation: from Precision, Recall and F-measure to ROC, Informedness, Markedness and Correlation"
+139,A new learning paradigm: Learning using privileged information
+140,Fair Algorithms for Machine Learning
+141,Nightmare at test time: robust learning by feature deletion
+142,Counterfactual Fairness in Text Classification through Robustness
+143,Unifying Adversarial Training Algorithms with Flexible Deep Data Gradient Regularization
+144,"European Union Regulations on Algorithmic Decision-Making and a ""Right to Explanation"""
+145,On the limited memory BFGS method for large scale optimization
+146,"Privacy, information technology, and health care"
+147,Large-Scale Machine Learning with Stochastic Gradient Descent
+148,Algorithmic Transparency via Quantitative Input Influence: Theory and Experiments with Learning Systems
+149,Preparing for the future of Artificial Intelligence
+150,Supervision via competition: Robot adversaries for learning tasks
+151,On Attacking Statistical Spam Filters
+152,Estimation of the warfarin dose with clinical and pharmacogenetic data.
+153,Nash Q-Learning for General-Sum Stochastic Games
+154,An Introduction to Kernel and Nearest-Neighbor Nonparametric Regression
+155,Stacked Convolutional Auto-Encoders for Hierarchical Feature Extraction
+156,Algorithmic Decision Making and the Cost of Fairness
+157,Auguste Kerckhoffs et la cryptographie militaire
+158,Pattern Recognition Receptors and Inflammation
+159,Error Bars Considered Harmful: Exploring Alternate Encodings for Mean and Error
+160,Why Does Unsupervised Pre-training Help Deep Learning?
+161,Towards Deep Learning Models Resistant to Adversarial Attacks
+162,Adversarial Transformation Networks: Learning to Generate Adversarial Examples
+163,Improving Transferability of Adversarial Examples With Input Diversity
+164,Feature Denoising for Improving Adversarial Robustness
+165,Certifiable Distributional Robustness with Principled Adversarial Training
+166,Foveation-based Mechanisms Alleviate Adversarial Examples
+167,Towards the Science of Security and Privacy in Machine Learning
+168,"Comment on ""Biologically inspired protection of deep networks from adversarial attacks"""
+169,Domain Adaptation: Learning Bounds and Algorithms
+170,Systematic evaluation of convolution neural network advances on the Imagenet
+171,GENERALIZATION BOUNDS FOR DOMAIN ADAPTATION VIA DOMAIN TRANSFORMATIONS
+172,Parseval Networks: Improving Robustness to Adversarial Examples
+173,Deep Networks with Stochastic Depth
+174,Categorical Reparameterization with Gumbel-Softmax
+175,Smoothed Inference for Adversarially-Trained Models
+176,Biologically inspired protection of deep networks from adversarial attacks
+177,Delving into adversarial attacks on deep policies
+178,Analysis of classifiers’ robustness to adversarial perturbations
+179,signSGD: compressed optimisation for non-convex problems
+180,"Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding"
+181,On Calibration of Modern Neural Networks
+182,The Arcade Learning Environment: An Evaluation Platform for General Agents (Extended Abstract)
+183,MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems
+184,A Course in Game Theory
+185,MagNet: A Two-Pronged Defense against Adversarial Examples
+186,Improved Training of Wasserstein GANs
+187,Early Methods for Detecting Adversarial Images
+188,Task-Aware Compressed Sensing with Generative Adversarial Networks
+189,Deep Learning Face Attributes in the Wild
+190,Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms
+191,Densely Connected Convolutional Networks
+192,Nonlinear total variation based noise removal algorithms
+193,The Split Bregman Method for L1-Regularized Problems
+194,Adversary Resistant Deep Neural Networks with an Application to Malware Detection
+195,The Concrete Distribution: A Continuous Relaxation of Discrete Random Variables
+196,Nonlocally Centralized Sparse Representation for Image Restoration
+197,Is Deep Learning Safe for Robot Vision? Adversarial Examples Against the iCub Humanoid
+198,Learning Adversary-Resistant Deep Neural Networks
+199,"La cryptographie militaire (Auguste Kerckhoffs, 1883)"
+200,"Show, Attend, Control, and Justify: Interpretable Learning for Self-Driving Cars"
+201,"MagNet and ""Efficient Defenses Against Adversarial Attacks"" are Not Robust to Adversarial Examples"
+202,Adversarial Example Defense: Ensembles of Weak Defenses are not Strong
+203,Cascade Adversarial Machine Learning Regularized with a Unified Embedding
+204,Wide Residual Networks
+205,Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation
+206,PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications
+207,Learning representations by back-propagating errors
+208,Learning long-term dependencies with gradient descent is difficult
+209,Estimating Local Intrinsic Dimensionality
+210,On the (Statistical) Detection of Adversarial Examples
+211,Generating Adversarial Malware Examples for Black-Box Attacks Based on GAN
+212,The security of machine learning
+213,DREBIN: Effective and Explainable Detection of Android Malware in Your Pocket
+214,Outside the Closed World: On Using Machine Learning for Network Intrusion Detection
+215,Automatic analysis of malware behavior using machine learning
+216,Deep neural network based malware detection using two dimensional binary program features
+217,An evaluation of Naive Bayesian anti-spam filtering
+218,Semantic Adversarial Examples
+219,FeatureSmith: Automatically Engineering Features for Malware Detection by Mining the Security Literature
+220,MARVIN: Efficient and Comprehensive Mobile App Classification through Static and Dynamic Analysis
+221,Dense Associative Memory Is Robust to Adversarial Inputs
+222,Using Non-invertible Data Transformations to Build Adversary-Resistant Deep Neural Networks
+223,Automated Static Code Analysis for Classifying Android Applications Using Machine Learning
+224,Efficient Detection of Zero-day Android Malware Using Normalized Bernoulli Naive Bayes
+225,The Motivational Pull of Video Games: A Self-Determination Theory Approach
+226,Race-Ethnic Differences in Factors Associated with Inhaled Steroid Adherence Among Adults with Asthma
+227,"Activation of NK cells and T cells by NKG2D, a receptor for stress-inducible MICA."
+228,Adversarially Regularized Autoencoders
+229,Adversarially Regularized Autoencoders for Generating Discrete Structures
+230,Variational Approaches for Auto-Encoding Generative Adversarial Networks
+231,Improved Techniques for Training GANs
+232,Towards Principled Methods for Training Generative Adversarial Networks
+233,Do GANs actually learn the distribution? An empirical study
+234,LSUN: Construction of a Large-scale Image Dataset using Deep Learning with Humans in the Loop
+235,Wasserstein Auto-Encoders
+236,Adversarial Examples for Evaluating Reading Comprehension Systems
+237,DeepXplore: automated whitebox testing of deep learning systems
+238,Toward Controlled Generation of Text
+239,Edge-exchangeable graphs and sparsity (NIPS 2016)
+240,Synthetic and Natural Noise Both Break Neural Machine Translation
+241,Stochastic Gradient VB and the Variational Auto-Encoder
+242,Understanding Neural Networks through Representation Erasure
+243,Enhanced LSTM for Natural Language Inference
+244,A causal framework for explaining the predictions of black-box sequence-to-sequence models
+245,Anchors: High-Precision Model-Agnostic Explanations
+246,NIPS 2016 Tutorial: Generative Adversarial Networks
+247,Provably Minimally-Distorted Adversarial Examples
+248,Towards Robust Detection of Adversarial Examples
+249,Ground-Truth Adversarial Examples
+250,Machine Learning as an Adversarial Service: Learning Black-Box Adversarial Examples
+251,Detecting Adversarial Attacks on Neural Network Policies with Visual Foresight
+252,DeepDGA: Adversarially-Tuned Domain Generation and Detection
+253,DeepSafe: A Data-driven Approach for Checking Adversarial Robustness in Neural Networks
+254,Adversarial vulnerability for any classifier
+255,Exploring the space of adversarial images
+256,Fundamental limits on adversarial robustness
+257,SafetyNet: Detecting and Rejecting Adversarial Examples Robustly
+258,Learning Universal Adversarial Perturbations with Generative Models
+259,"Adversarial Examples, Uncertainty, and Transfer Testing Robustness in Gaussian Process Hybrid Deep Networks"
+260,A Boundary Tilting Persepective on the Phenomenon of Adversarial Examples
+261,Adversarial Images for Variational Autoencoders
+262,Towards Interpretable Deep Neural Networks by Leveraging Adversarial Examples
+263,Towards Proving the Adversarial Robustness of Deep Neural Networks
+264,Universal Adversarial Perturbations Against Semantic Image Segmentation
+265,Foolbox: A Python toolbox to benchmark the robustness of machine learning models
+266,Foolbox v0.8.0: A Python toolbox to benchmark the robustness of machine learning models
+267,Adversarially Robust Generalization Requires More Data
+268,Robustness to Adversarial Examples through an Ensemble of Specialists
+269,Standard detectors aren't (currently) fooled by physical adversarial stop signs
+270,Enhancing robustness of machine learning systems via data transformations
+271,Multiple classifier systems for robust classifier design in adversarial environments
+272,Evading Machine Learning Malware Detection
+273,Blind Attacks on Machine Learners
+274,Adversarial Spheres
+275,Dimensionality Reduction as a Defense against Evasion Attacks on Machine Learning Classifiers
+276,Adversarial Training for Relation Extraction
+277,Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network
+278,“Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks”の学習報告
+279,Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks
+280,Self-Normalizing Neural Networks
+281,Scaling learning algorithms towards AI
+282,Opening the Black Box of Deep Neural Networks via Information
+283,Learning Fast and Slow: PROPEDEUTICA for Real-time Malware Detection
+284,Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification
+285,Autoencoding beyond pixels using a learned similarity metric
+286,Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization
+287,Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
+288,Asynchronous Methods for Deep Reinforcement Learning
+289,Network In Network
+290,Very Deep Convolutional Networks for Large-Scale Image Recognition
+291,Do Deep Nets Really Need to be Deep?
+292,Adaptive Subgradient Methods for Online Learning and Stochastic Optimization
+293,Full Resolution Image Compression with Recurrent Neural Networks
+294,"You Only Look Once: Unified, Real-Time Object Detection"
+295,Robots that can adapt like animals
+296,Pattern Recognition Systems under Attack: Design Issues and Research Challenges
+297,A Survey of Modern Questions and Challenges in Feature Extraction
+298,Fully convolutional networks for semantic segmentation
+299,Unsupervised Image-to-Image Translation Networks
+300,WaveNet: A Generative Model for Raw Audio
+301,"YOLO9000: Better, Faster, Stronger"
+302,Mastering the game of Go without human knowledge
+303,Single Shot Text Detector with Regional Attention
+304,Rethinking Atrous Convolution for Semantic Image Segmentation
+305,ArcFace: Additive Angular Margin Loss for Deep Face Recognition
+306,Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm
+307,DolphinAttack: Inaudible Voice Commands
+308,"SQuAD: 100, 000+ Questions for Machine Comprehension of Text"
+309,The IBM 2015 English conversational telephone speech recognition system
+310,A Fast Uyghur Text Detector for Complex Background Images
+311,Image Quality Assessment Using the SSIM and the Just Noticeable Difference Paradigm
+312,The Mythos of Model Interpretability
+313,Recommender Systems Based on Generative Adversarial Networks: A Problem-Driven Perspective
+314,Can we open the black box of AI?
+315,Export laws: China is selling on surveillance technology to the rest of the world
+316,I Want to Have Your Baby
+317,Grad-CAM: Why did you say that? Visual Explanations from Deep Networks via Gradient-based Localization
+318,Deep learning in neural networks: An overview
+319,Who is afraid of a black Spider(-Man)?
+320,TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems
+321,Deep Spiking Neural Networks: Study on the MNIST and N-MNIST Data Sets
+322,Analysis of the MNIST Data Set with LIBSVM Software and K-Nearest Neighbors
+323,Three Strategies to Success: Learning Adversary Models in Security Games
+324,The growth of Diaspora - A decentralized online social network in the wild
+325,Parametric Image Alignment Using Enhanced Correlation Coefficient Maximization
+326,Visual Causal Feature Learning
+327,Pylearn2: a machine learning research library
+328,What is the best multi-stage architecture for object recognition?
+329,Deep Sparse Rectifier Neural Networks
+330,Multilayer feedforward networks are universal approximators
+331,Theano: new features and speed improvements
+332,Spatiotemporal Elements of Macaque V1 Receptive Fields
+333,Pylearn2: a machine learning research library
+334,Under Review as a Conference Paper at Iclr 2017 Delving into Transferable Adversarial Ex- Amples and Black-box Attacks
+335,Interpretable classifiers using rules and Bayesian analysis: Building a better stroke prediction model
+336,Analyzing Computer Security - A Threat / Vulnerability / Countermeasure Approach
+337,Data clustering: a review
+338,Inherent Trade-Offs in the Fair Determination of Risk Scores
+339,Are Loss Functions All the Same?
+340,Visualizing Deep Convolutional Neural Networks Using Natural Pre-images
+341,Learning SVMs from Sloppily Labeled Data
+342,Good Word Attacks on Statistical Spam Filters
+343,Exploring the Landscape of Spatial Robustness
+344,Exploring the Landscape of Spatial Robustness
+345,CRC Handbook of Combinatorial Designs
+346,A non-local algorithm for image denoising
+347,Fast Approximate Energy Minimization via Graph Cuts
+348,NO Need to Worry about Adversarial Examples in Object Detection in Autonomous Vehicles
+349,Image quilting for texture synthesis and transfer
+350,Deep Speech 2 : End-to-End Speech Recognition in English and Mandarin
+351,Robustness of classifiers: from adversarial to random noise
+352,Houdini: Fooling Deep Structured Prediction Models
+353,Attacking the Madry Defense Model with L1-based Adversarial Examples
+354,The Robust Manifold Defense: Adversarial Training using Generative Models
+355,Letter: Primary amoebic meningoencephalitis after swimming in stream water.
+356,A large annotated corpus for learning natural language inference
+357,Robust Physical-World Attacks on Deep Learning Models
+358,Caffe: Convolutional Architecture for Fast Feature Embedding
+359,Return of the Devil in the Details: Delving Deep into Convolutional Nets
+360,Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning
+361,Adversarial Examples Detection in Deep Networks with Convolutional Filter Statistics
+362,Simple Black-Box Adversarial Perturbations for Deep Networks
+363,Dermatologist-level classification of skin cancer with deep neural networks
+364,Auto-Encoding Variational Bayes
+365,Crafting adversarial input sequences for recurrent neural networks
+366,Improving the Adversarial Robustness and Interpretability of Deep Neural Networks by Regularizing their Input Gradients
+367,Feature-Guided Black-Box Safety Testing of Deep Neural Networks
+368,Ensemble Methods as a Defense to Adversarial Perturbations Against Deep Neural Networks
+369,Defense Against Universal Adversarial Perturbations
+370,Keeping the Bad Guys Out: Protecting and Vaccinating Deep Learning with JPEG Compression
+371,Detecting Adversarial Examples in Deep Networks with Adaptive Noise Reduction
+372,Tactics of Adversarial Attack on Deep Reinforcement Learning Agents
+373,Fast Feature Fool: A data independent approach to universal adversarial perturbations
+374,BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain
+375,NAG: Network for Adversary Generation
+376,Towards Robust Deep Neural Networks with BANG
+377,Adversarial Attacks Beyond the Image Space
+378,A Unified Gradient Regularization Family for Adversarial Examples
+379,Assessing Threat of Adversarial Examples on Deep Neural Networks
+380,MatConvNet: Convolutional Neural Networks for MATLAB
+381,A Closer Look at Memorization in Deep Networks
+382,APE-GAN: Adversarial Perturbation Elimination with GAN
+383,Contractive Auto-Encoders: Explicit Invariance During Feature Extraction
+384,Art of Singular Vectors and Universal Adversarial Perturbations
+385,Backpropagation Applied to Handwritten Zip Code Recognition
+386,Differential Evolution: A Survey of the State-of-the-Art
+387,Analysis of universal adversarial perturbations
+388,Generative Adversarial Trainer: Defense to Adversarial Perturbations with GAN
+389,Intriguing Properties of Adversarial Examples
+390,DeepCloak: Masking Deep Neural Network Models for Robustness Against Adversarial Samples
+391,A Learning and Masking Approach to Secure Learning
+392,Improving the Robustness of Deep Neural Networks via Stability Training
+393,Deep learning applications and challenges in big data analytics
+394,Discovering Adversarial Examples with Momentum
+395,Regularizing deep networks using efficient layerwise adversarial training
+396,A Learning and Masking Approach to Secure Learning
+397,Improving the Robustness of Deep Neural Networks via Stability Training
+398,Deep learning applications and challenges in big data analytics
+399,Discovering Adversarial Examples with Momentum
+400,Regularizing deep networks using efficient layerwise adversarial training
+401,Can you fool AI with adversarial examples on a visual Turing test?
+402,Robust Convolutional Neural Networks under Adversarial Noise
+403,Extending Defensive Distillation
+404,On the Limitation of Convolutional Neural Networks in Recognizing Negative Images
+405,Geometric Robustness of Deep Networks: Analysis and Improvement
+406,Adversarial Image Perturbation for Privacy Protection A Game Theory Perspective
+407,Adversarial-Playground: A visualization suite showing how adversarial examples fool deep learning
+408,Feature Squeezing Mitigates and Detects Carlini/Wagner Adversarial Examples
+409,Comprehensive Approach to Modeling and Simulation of Photovoltaic Arrays
+410,HyperNetworks with statistical filtering for defending adversarial examples
+411,Are facial attributes adversarially robust?
+412,Connectomic reconstruction of the inner plexiform layer in the mouse retina
+413,Deep Neural Nets as a Method for Quantitative Structure-Activity Relationships
+414,Digital selection and analogue amplification coexist in a cortex-inspired silicon circuit
+415,Alleviating adversarial attacks via convolutional autoencoder
+416,Manifold Regularized Deep Neural Networks using Adversarial Examples
+417,JPEG-resistant Adversarial Images
+418,Bounded activation functions for enhanced training stability of deep neural networks on visual pattern recognition problems
+419,Generic Black-Box End-to-End Attack Against State of the Art API Call Based Malware Classifiers
+420,Adversary Detection in Neural Networks via Persistent Homology
+421,Vision-Based Traffic Sign Detection and Analysis for Intelligent Driver Assistance Systems: Perspectives and Survey
+422,Practical Methods of Optimization
+423,On the Robustness of Convolutional Neural Networks to Internal Architecture and Weight Perturbations
+424,Improving generalization performance using double backpropagation
+425,The human splicing code reveals new insights into the genetic determinants of disease
+426,UPSET and ANGRI : Breaking High Performance Image Classifiers
+427,Fooling Neural Networks in Face Attractiveness Evaluation: Adversarial Examples with High Attractiveness Score But Low Subjective Score
+428,Soft biometric privacy: Retaining biometric utility of face images while perturbing gender
+429,Dense Associative Memory for Pattern Recognition
+430,Butterfly Effect: Bidirectional Control of Classification Performance by Small Additive Perturbation
+431,An introduction to frames and Riesz bases
+432,Mitigating fooling with competitive overcomplete output layer neural networks
+433,The Higgs boson machine learning challenge
+434,Online particle detection with Neural Networks based on topological calorimetry information
+435,THERMOMETER ENCODING: ONE HOT WAY TO RESIST
+436,Deep convolutional models improve predictions of macaque V1 responses to natural images
+437,Managing Complex Networks: Strategies for the Public Sector
+438,Mitigating Android Software Misuse Before It Happens
+439,Self-Attention Generative Adversarial Networks
+440,Scanning Electron Microscopy and X-Ray Microanalysis
+441,Effect of Element on Porosity and Residual Stress Distribution of A7N01S-T5 Aluminum Alloy Welded Joints in High-Speed Trains
+442,Adversarial Attacks on Face Detectors Using Neural Net Based Constrained Optimization
+443,Robust Physical-World Attacks on Deep Learning Visual Classification
+444,Fast R-CNN
+445,DeepFace: Closing the Gap to Human-Level Performance in Face Verification
+446,MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications
+447,The Pascal Visual Object Classes (VOC) Challenge
+448,The PASCAL visual object classes challenge 2006 (VOC2006) results
+449,Complete Replication of Hepatitis C Virus in Cell Culture
+450,A Geologic Time Scale 2004: CONCEPTS AND METHODS
+451,Clinical and immunological features of severe and moderate coronavirus disease 2019
+452,"2016 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2016, Las Vegas, NV, USA, June 27-30, 2016"
+453,Complete Replication of Hepatitis C Virus in Cell Culture
+454,The Pascal Visual Object Classes (VOC) Challenge
+455,Detection of the baryon acoustic peak in the large-scale correlation function of SDSS luminous red galaxies
+456,Detection of the baryon acoustic peak in the large-scale correlation function of SDSS luminous red galaxies
+457,YOLOv3: An Incremental Improvement
+458,Metalation vs Nucleophilic Addition in the Reactions of N-Phenethylimides with Organolithium Reagents. Ready Access to Isoquinoline Derivatives via N-Acyliminium Ions and Parham-Type Cyclizations.
+459,Nietzsche and Wagner
+460,Distributed Statistical Machine Learning in Adversarial Settings: Byzantine Gradient Descent
+461,Security Evaluation of Pattern Classifiers under Attack
+462,AMC: AutoML for Model Compression and Acceleration on Mobile Devices
+463,Random sampling with a reservoir
+464,Net2Net: Accelerating Learning via Knowledge Transfer
+465,Security Evaluation of Pattern Classifiers under Attack
+466,Co-casting of Al and Al-foam
+467,Co-casting of Al and Al-foam
+468,Directing students to profound open-book test preparation: The relationship between deep learning and open-book test time
+469,Model compression
+470,Co-casting of Al and Al-foam
+471,Co-casting of Al and Al-foam
+472,Co-casting of Al and Al-foam
+473,Man vs. computer: Benchmarking machine learning algorithms for traffic sign recognition
+474,as a conference paper at ICLR 2018 O N THE CONVERGENCE OF A DAM AND B EYOND
+475,An Analysis of Single-Layer Networks in Unsupervised Feature Learning
+476,Improving neural networks by preventing co-adaptation of feature detectors
+477,Stochastic Pooling for Regularization of Deep Convolutional Neural Networks
+478,Practical Bayesian Optimization of Machine Learning Algorithms
+479,Deep Boltzmann Machines
+480,Improving Neural Networks with Dropout
+481,Bagging predictors
+482,Joint Training Deep Boltzmann Machines for Classification
+483,Deep Convex Net: A Scalable Architecture for Speech Pattern Classification
+484,Convolutional neural networks applied to house numbers digit classification
+485,The Manifold Tangent Classifier
+486,Reading Digits in Natural Images with Unsupervised Feature Learning
+487,Learnable Pooling Regions for Image Classification
+488,"Rank, Trace-Norm and Max-Norm"
+489,On the piecewise analysis of networks of linear threshold neurons
+490,"Deep, Big, Simple Neural Nets for Handwritten Digit Recognition"
+491,A model of multiplicative neural responses in parietal cortex.
+492,General constructive representations for continuous piecewise-linear functions
+493,Convolutional neural networks applied to house numbers digit classification
+494,Improving Neural Networks with Dropout
+495,Face Recognition on Consumer Devices: Reflections on Replay Attacks
+496,Exploiting Machine Learning to Subvert Your Spam Filter
+497,Neural Machine Translation by Jointly Learning to Align and Translate
+498,The clinical characteristics of coronary artery fistula anomalies in children and adults: A 24-year experience.
+499,Workshop track-ICLR 2018 A SPECT-BASED Q UESTION G ENERATION
+500,What Is Holding Back Convnets for Detection?
+501,Manitest: Are classifiers really invariant?
+502,Convolutional networks and applications in vision
+503,Object Recognition with Gradient-Based Learning
+504,Strategies for training large scale neural network language models
+505,A Deep Learning Network Approach to ab initio Protein Secondary Structure Prediction
+506,Deep autoencoder neural networks for gene ontology annotation predictions
+507,CasADi: a software framework for nonlinear optimization and optimal control
+508,Least-change secant update methods for undetermined systems
+509,Development and validation of deep learning algorithms for scoliosis screening using back images
+510,Referee consensus: a platform technology for nonlinear optimization
+511,Referee consensus: a platform technology for nonlinear optimization
+512,How transferable are features in deep neural networks?
+513,A Fast Learning Algorithm for Deep Belief Nets
+514,Exploring Strategies for Training Deep Neural Networks
+515,Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition
+516,A unified architecture for natural language processing: deep neural networks with multitask learning
+517,"Convolutional, Long Short-Term Memory, fully connected Deep Neural Networks"
+518,Long short-term memory recurrent neural network architectures for large scale acoustic modeling
+519,Deep Inside Convolutional Networks: Visualising Image Classification Models and Saliency Maps
+520,Multi-column deep neural network for traffic sign classification
+521,Network security - private communication in a public world
+522,Evading network anomaly detection systems: formal reasoning and practical techniques
+523,Fundamentals of computer security technology
+524,Classification of MNIST Handwritten Digit Database using Neural Network
+525,Scalable Handwritten Digit Recognition Application using Neural Network and Convolutional Neural Network On Heterogeneous Architecture
+526,Understanding deep image representations by inverting them
+527,Training Deep Convolutional Neural Networks to Play Go
+528,Learning Deep Structured Models
+529,The Virtues of Peer Pressure: A Simple Method for Discovering High-Value Mistakes
+530,Deep Learners Benefit More from Out-of-Distribution Examples
+531,Best practices for convolutional neural networks applied to visual document analysis
+532,Image quality assessment: from error visibility to structural similarity
+533,Parsing Natural Scenes and Natural Language with Recursive Neural Networks
+534,Training Invariant Support Vector Machines using Selective Sampling
+535,Training Invariant Support Vector Machines using Selective Sampling
+536,Fine-grained Recognition in the Noisy Wild: Sensitivity Analysis of Convolutional Neural Networks Approaches
+537,Learning hierarchical invariant spatio-temporal features for action recognition with independent subspace analysis
+538,Conditional Image Generation with PixelCNN Decoders
+539,Semi-supervised Learning with Deep Generative Models
+540,Deep Convolutional Inverse Graphics Network
+541,"Learning to Generate Chairs, Tables and Cars with Convolutional Networks"
+542,Variable Rate Image Compression with Recurrent Neural Networks
+543,Video Pixel Networks
+544,Bayesian Semisupervised Learning with Deep Generative Models
+545,Perceptual Losses for Real-Time Style Transfer and Super-Resolution
+546,Simple statistical gradient-following algorithms for connectionist reinforcement learning
+547,Smart additive manufacturing empowered by a closed-loop machine learning algorithm
+548,Inceptionism: Going Deeper into Neural Networks
+549,R-FCN: Object Detection via Region-based Fully Convolutional Networks
+550,DeepContour: A deep convolutional feature learned by positive-sharing loss for contour detection
+551,"DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs"
+552,DeCAF: A Deep Convolutional Activation Feature for Generic Visual Recognition
+553,Holistically-Nested Edge Detection
+554,Feature Pyramid Networks for Object Detection
+555,CNN Features Off-the-Shelf: An Astounding Baseline for Recognition
+556,Conditional Random Fields as Recurrent Neural Networks
+557,Unsupervised learning of object semantic parts from internal states of CNNs by population encoding
+558,Discovering Internal Representations from Object-CNNs Using Population Encoding
+559,The Cityscapes Dataset for Semantic Urban Scene Understanding
+560,R-FCN: Object Detection via Region-based Fully Convolutional Networks
+561,TwinNet: A Double Sub-Network Framework for Detecting Universal Adversarial Perturbations
+562,Simple Black-Box Adversarial Attacks on Deep Neural Networks
+563,Evading Classifiers by Morphing in the Dark
+564,A Rotation and a Translation Suffice: Fooling CNNs with Simple Transformations
+565,A geometric perspective on   the robustness of deep networks
+566,The Robustness of Deep Networks: A Geometrical Perspective
+567,On the Suitability of Lp-Norms for Creating and Preventing Adversarial Examples
+568,Classification regions of deep neural networks
+569,Did you hear that? Adversarial Examples Against Automatic Speech Recognition
+570,Understanding Neural Networks Through Deep Visualization
+571,Understanding Intra-Class Knowledge Inside CNN
+572,Novelty-organizing team of classifiers in noisy and dynamic environments
+573,Noniterative Deep Learning: Incorporating Restricted Boltzmann Machine Into Multilayer Random Weight Neural Networks
+574,Proceedings of the 2017 ACM on Asia Conference on Computer and Communications Security
+575,Completely Derandomized Self-Adaptation in Evolution Strategies
+576,ExSTraCS 2.0: description and evaluation of a scalable learning classifier system
+577,Evolving Neural Networks through Augmenting Topologies
+578,Compaction for Code Fragment Based Learning Classifier Systems
+579,Spectrum-Diverse Neuroevolution With Unified Neural Models
+580,Novelty-organizing team of classifiers - A team-individual multi-objective approach to reinforcement learning
+581,Sequential sampling for noisy optimisation with CMA-ES
+582,Reducing the Time Complexity of the Derandomized Evolution Strategy with Covariance Matrix Adaptation (CMA-ES)
+583,Self organizing classifiers: first steps in structured evolutionary machine learning
+584,General Subpopulation Framework and Taming the Conflict Inside Populations
+585,Self organizing classifiers and niched fitness
+586,Deriving and improving CMA-ES with information geometric trust regions
+587,Adapting arbitrary normal mutation distributions in evolution strategies: the covariance matrix adaptation
+588,An introduction to genetic algorithms
+589,Self-Adapting Control Parameters in Differential Evolution: A Comparative Study on Numerical Benchmark Problems
+590,Genetic reinforcement learning for neurocontrol problems
+591,Self-adaptive differential evolution algorithm for numerical optimization
+592,Evolution strategies – A comprehensive introduction
+593,The CMA Evolution Strategy: A Comparing Review
+594,"A conceptual comparison of the Cuckoo-search, particle swarm optimization, differential evolution and artificial bee colony algorithms"
+595,Pattern Recognition and Machine Learning (Information Science and Statistics)
+596,Differential Evolution – A Simple and Efficient Heuristic for global Optimization over Continuous Spaces
+597,Completely Derandomized Self-Adaptation in Evolution Strategies
+598,"Pattern Recognition and Machine Learning Pattern Recognition and Machine Learning . Christopher M. Bishop New York : Springer , 2006 . ISBN 0-38731073-8 . xx + 738 pp. \$74.95 ."
+599,"Pattern Recognition and Machine Learning Pattern Recognition and Machine Learning . Christopher M. Bishop New York : Springer , 2006 . ISBN 0-38731073-8 . xx + 738 pp. \$74.95 ."
+600,Minibatch Approximate Greatest Descent on CIFAR-10 Dataset
+601,Simple Black-Box Adversarial Attacks on Deep Neural Networks
+602,On the importance of initialization and momentum in deep learning
+603,Identity Mappings in Deep Residual Networks
+604,"Neural Network Ensembles, Cross Validation, and Active Learning"
+605,Optimization and global minimization methods suitable for neural networks
+606,Ensemble selection from libraries of models
+607,Some methods of speeding up the convergence of iteration methods
+608,Neural network with ensembles
+609,Feature Cross-Substitution in Adversarial Classification
+610,Scalable Optimization of Randomized Operational Decisions in Adversarial Classification Settings
+611,Least Squares Generative Adversarial Networks
+612,BEGAN: Boundary Equilibrium Generative Adversarial Networks
+613,Image-to-Image Translation with Conditional Adversarial Networks
+614,Generative Visual Manipulation on the Natural Image Manifold
+615,Colorful Image Colorization
+616,End-to-End Training of Deep Visuomotor Policies
+617,Classification with a Reject Option using a Hinge Loss
+618,Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images
+619,"2019 IEEE Symposium on Security and Privacy, SP 2019, San Francisco, CA, USA, May 19-23, 2019"
+620,Winning the ICCV 2019 Learning to Drive Challenge
+621,Morphophonemic and orthographic rules in a multi-dialectal morphological analyzer and generator for Arabic verbs
+622,Morphophonemic and orthographic rules in a multi-dialectal morphological analyzer and generator for Arabic verbs
+623,Pixel-Level Matching for Video Object Segmentation Using Convolutional Neural Networks
+624,On the Robustness of the CVPR 2018 White-Box Adversarial Example Defenses
+625,Hotel companies' environmental policies and practices: a content analysis of their web pages
+626,Spatial Transformer Networks
+627,Learning Deep Features for Discriminative Localization
+628,Computer Vision - Algorithms and Applications
+629,Transforming Auto-Encoders
+630,View Synthesis by Appearance Flow
+631,An Intuitive Justification and a Simplified Implementation of the MAP Decoder for Convolutional Codes
+632,A stacking model using URL and HTML features for phishing webpage detection
+633,A stacking model using URL and HTML features for phishing webpage detection
+634,XIII—The Development of the CIE 1976 (L* a* b*) Uniform Colour Space and Colour‐difference Formula
+635,A theory of the learnable
+636,Robust Adversarial Reinforcement Learning
+637,Query-Efficient Black-box Adversarial Examples
+638,Evolution Strategies as a Scalable Alternative to Reinforcement Learning
+639,Pixel Recurrent Neural Networks
+640,Mirror Natural Evolution Strategies
+641,Multivariate stochastic approximation using a simultaneous perturbation gradient approximation
+642,Empirical risk minimization for heavy-tailed losses
+643,Piecewise Linear Neural Network verification: A comparative study
+644,Global Random Optimization by Simultaneous Perturbation Stochastic Approximation
+645,Interactive and interpretable machine learning models for human machine collaboration
+646,Increasing the Interpretability of Recurrent Neural Networks Using Hidden Markov Models
+647,Adversarial Machine Learning in Malware Detection: Arms Race between Evasion Attack and Defense
+648,Understanding Neural Networks via Feature Visualization: A survey
+649,Metric-based Curve Clustering and Feature Extraction in Flow Visualization
+650,Nearly-tight VC-dimension and Pseudodimension Bounds for Piecewise Linear Neural Networks
+651,Apprenticeship learning via inverse reinforcement learning
+652,Continuous control with deep reinforcement learning
+653,Benchmarking Deep Reinforcement Learning for Continuous Control
+654,Trust Region Policy Optimization
+655,OpenAI Gym
+656,Semantic Image Segmentation via Deep Parsing Network
+657,Theano: A Python framework for fast computation of mathematical expressions
+658,Xception: Deep Learning with Depthwise Separable Convolutions
+659,Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising
+660,I and i
+661,Matrix capsules with EM routing
+662,Dynamic Routing Between Capsules
+663,Unrolled Generative Adversarial Networks
+664,Generative Moment Matching Networks
+665,"How (not) to Train your Generative Model: Scheduled Sampling, Likelihood, Adversary?"
+666,Training generative neural networks via Maximum Mean Discrepancy optimization
+667,f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization
+668,Energy-based Generative Adversarial Network
+669,Generative Models and Model Criticism via Optimized Maximum Mean Discrepancy
+670,On the Quantitative Analysis of Decoder-Based Generative Models
+671,Stochastic Optimization for Large-scale Optimal Transport
+672,Wasserstein Training of Restricted Boltzmann Machines
+673,Learning Deep Generative Models with Annealed Importance Sampling
+674,A Kernel Two-Sample Test
+675,Integral probability metrics and their generating classes of functions
+676,Envelope Theorems for Arbitrary Choice Sets
+677,Optimal Transport: Old and New
+678,On the High-dimensional Power of Linear-time Kernel Two-Sample Testing under Mean-difference Alternatives
+679,Concrete Representation of Abstract (M)-Spaces (A characterization of the Space of Continuous Functions)
+680,Energy-based Generative Adversarial Network
+681,Envelope Theorems for Arbitrary Choice Sets
+682,Physical Adversarial Examples for Object Detectors
+683,Note on Attacking Object Detectors with Adversarial Stickers
+684,Microsoft COCO: Common Objects in Context
+685,Rogue Signs: Deceiving Traffic Sign Recognition with Malicious Ads and Logos
+686,Speed/Accuracy Trade-Offs for Modern Convolutional Object Detectors
+687,Adversarial Examples that Fool Detectors
+688,DARTS: Deceiving Autonomous Cars with Toxic Signs
+689,U-Net: Convolutional Networks for Biomedical Image Segmentation
+690,U-Net: Convolutional Networks for Biomedical Image Segmentation
+691,"No Bot Expects the DeepCAPTCHA! Introducing Immutable Adversarial Examples, With Applications to CAPTCHA Generation"
+692,Generating Images with Perceptual Similarity Metrics based on Deep Networks
+693,Semi-supervised Learning with Ladder Networks
+694,Learning to generate images with perceptual similarity metrics
+695,"No Bot Expects the DeepCAPTCHA! Introducing Immutable Adversarial Examples, With Applications to CAPTCHA Generation"
+696,"Imperceptible, Robust, and Targeted Adversarial Examples for Automatic Speech Recognition"
+697,Targeted Adversarial Examples for Black Box Audio Systems
+698,Daedalus: Breaking Non-Maximum Suppression in Object Detection via Adversarial Examples
+699,Robust Audio Adversarial Example for a Physical Attack
+700,Universal Adversarial Training
+701,Audio Adversarial Examples: Targeted Attacks on Speech-to-Text
+702,Certified Adversarial Robustness via Randomized Smoothing
+703,Plagiarism Detection in Programming Assignments Using Deep Features
+704,Robust and Secure Image Fingerprinting Learned by Neural Network
+705,TensorFlow: A system for large-scale machine learning
+706,An Industrial Strength Audio Search Algorithm
+707,A Field Guide to Forward-Backward Splitting with a FASTA Implementation
+708,Real-Time Optical Music Recognition System for Dulcimer Musical Robot
+709,Experimental research on the voltage distribution of tesla transformer's taper windings
+710,The Dilemma of False Positives: Making Content ID Algorithms more Conducive to Fostering Innovative Fair Use in Music Creation
+711,Through a different lens: a mother's day lament.
+712,Results of the 2016 International Skin Imaging Collaboration International Symposium on Biomedical Imaging challenge: Comparison of the accuracy of computer algorithms to dermatologists for the diagnosis of melanoma from dermoscopic images
+713,Computer-aided classification of melanocytic lesions using dermoscopic images.
+714,Segmentation of Skin Lesions From Digital Images Using Joint Statistical Texture Distinctiveness
+715,Is dermoscopy (epiluminescence microscopy) useful for the diagnosis of melanoma? Results of a meta-analysis using techniques adapted to the evaluation of diagnostic tests.
+716,Comparative performance of 4 dermoscopic algorithms by nonexperts for the diagnosis of melanocytic lesions.
+717,Computer-Aided Diagnosis of Melanoma Using Border- and Wavelet-Based Texture Analysis
+718,Variables predicting change in benign melanocytic nevi undergoing short-term dermoscopic imaging.
+719,Improving Dermoscopy Image Classification Using Color Constancy
+720,Meta‐analysis of digital dermoscopy follow‐up of melanocytic skin lesions: a study on behalf of the International Dermoscopy Society
+721,Assessment of the optimal interval for and sensitivity of short-term sequential digital dermoscopy monitoring for the diagnosis of melanoma.
+722,"Pattern analysis, not simplified algorithms, is the most reliable method for teaching dermoscopy for melanoma diagnosis to residents in dermatology"
+723,Short-term digital surface microscopic monitoring of atypical or changing melanocytic lesions.
+724,In vivo epiluminescence microscopy of pigmented skin lesions. I. Pattern analysis of pigmented skin lesions.
+725,Emerging trends in the epidemiology of melanoma
+726,Dermoscopy compared with naked eye examination for the diagnosis of primary melanoma: a meta‐analysis of studies performed in a clinical setting
+727,Impact of dermoscopy and short‐term sequential digital dermoscopy imaging for the management of pigmented lesions in primary care: a sequential intervention trial
+728,To excise or not: impact of MelaFind on German dermatologists’ decisions to biopsy atypical lesions
+729,Melanoma screening: focusing the public health journey.
+730,Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning
+731,mixup: Beyond Empirical Risk Minimization
+732,Generalizability vs. Robustness: Adversarial Examples for Medical Imaging
+733,Adversarial Examples that Fool both Human and Computer Vision
+734,CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning
+735,Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs.
+736,Deep learning for healthcare decision making with EMRs
+737,Diagnostic Assessment of Deep Learning Algorithms for Detection of Lymph Node Metastases in Women With Breast Cancer
+738,Translating Artificial Intelligence Into Clinical Care.
+739,A Dual Approach to Scalable Verification of Deep Networks
+740,Detecting hip fractures with radiologist-level performance using deep neural networks
+741,Deep learning approach for active classification of electrocardiogram signals
+742,ChestX-Ray8: Hospital-Scale Chest X-Ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases
+743,Adapting to Artificial Intelligence: Radiologists and Pathologists as Information Specialists.
+744,Using imaging biomarkers to accelerate drug development and clinical trials.
+745,Combating Health Care Fraud and Abuse: Conceptualization and Prototyping Study of a Blockchain Antifraud Framework
+746,Fraud and Abuse in the Saudi Healthcare System: A Triangulation Analysis
+747,Research and Development Spending to Bring a Single Cancer Drug to Market and Revenues After Approval
+748,Tumor delineation: The weakest link in the search for accuracy in radiotherapy
+749,Reported outcomes in major cardiovascular clinical trials funded by for-profit and not-for-profit organizations: 2000-2005.
+750,Physician manipulation of reimbursement rules for patients: between a rock and a hard place.
+751,Variability of target and normal structure delineation for breast cancer radiotherapy: an RTOG Multi-Institutional and Multiobserver Study.
+752,Health Care Spending in the United States and Other High-Income Countries
+753,Medicine's uncomfortable relationship with math: calculating positive predictive value.
+754,3D Variation in delineation of head and neck organs at risk
+755,"The road to ICD-10-CM/PCS implementation: forecasting the transition for providers, payers, and other healthcare organizations."
+756,Overbilling vs. downcoding--the battle between physicians and insurers.
+757,Metabolic syndrome: underrated or underdiagnosed?
+758,Personal identification system based on vascular pattern of human retina
+759,Personal identification on the basis of antemortem and postmortem radiographs.
+760,Personal identification using periocular skin texture
+761,World development indicators 1998 [CD-ROM
+762,Heart disease and stroke statistics--2008 update: a report from the American Heart Association Statistics Committee and Stroke Statistics Subcommittee.
+763,Corruption: medicine’s dirty open secret
+764,"Medicare, Medicaid and CLIA programs; regulations implementing the Clinical Laboratory Improvement Amendments of 1988 (CLIA)--HCFA. Final rule with comment period."
+765,"Principles of Chest X-ray Diagnosis by George Simon. Pp. 282. Published by Butterworths, London. £8."
+766,Marginalized Denoising Auto-encoders for Nonlinear Representations
+767,What regularized auto-encoders learn from the data-generating distribution
+768,Higher Order Contractive Auto-Encoder
+769,Recurrent Models of Visual Attention
+770,PANDA: Pose Aligned Networks for Deep Attribute Modeling
+771,Deep Learning using Support Vector Machines
+772,Deep Learning using Linear Support Vector Machines
+773,Avoiding pathologies in very deep networks
+774,Deep Networks with Internal Selective Attention through Feedback Connections
+775,Learning with Recursive Perceptual Representations
+776,Distributed hierarchical processing in the primate cerebral cortex.
+777,Recurrent excitation in neocortical circuits
+778,CUDAMat: a CUDA-based matrix class for Python
+779,Marginalized Denoising Auto-encoders for Nonlinear Representations
+780,Rapid developmental maturation of neocortical FS cell intrinsic excitability.
+781,Creating artificial neural networks that generalize
+782,The Reversible Residual Network: Backpropagation Without Storing Activations
+783,Representation Learning: A Review and New Perspectives
+784,Improving Generative Adversarial Networks with Denoising Feature Matching
+785,Adversarial Generative Nets: Neural Network Attacks on State-of-the-Art Face Recognition
+786,Better Mixing via Deep Representations
+787,A3T: Adversarially Augmented Adversarial Training
+788,Regularized Auto-Encoders Estimate Local Statistics
+789,Deflecting Adversarial Attacks with Pixel Deflection
+790,Adversarial examples from computational constraints
+791,Safer Classification by Synthesis
+792,VectorDefense: Vectorization as a Defense to Adversarial Examples
+793,Black-box Adversarial Attacks with Limited Queries and Information
+794,There Is No Free Lunch In Adversarial Robustness (But There Are Unexpected Benefits)
+795,Distributionally Adversarial Attack
+796,Formal Guarantees on the Robustness of a Classifier against Adversarial Manipulation
+797,A generative vision model that trains with high data efficiency and breaks text-based CAPTCHAs
+798,Formalizing Neurath’s Ship: Approximate Algorithms for Online Causal Learning
+799,"Deep k-Nearest Neighbors: Towards Confident, Interpretable and Robust Deep Learning"
+800,Analyzing the Robustness of Nearest Neighbors to Adversarial Examples
+801,A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks
+802,Retrieval-Augmented Convolutional Neural Networks for Improved Robustness against Adversarial Examples
+803,Exploring the Limits of Weakly Supervised Pretraining
+804,HotFlip: White-Box Adversarial Examples for Text Classification
+805,Revisiting Unreasonable Effectiveness of Data in Deep Learning Era
+806,Particular object retrieval with integral max-pooling of CNN activations
+807,The New Data and New Challenges in Multimedia Research
+808,Automatic differentiation in PyTorch
+809,Allergic Rhinitis and its Impact on Asthma (ARIA) 2008 *
+810,Allergic Rhinitis and its Impact on Asthma (ARIA) 2008 *
+811,CLeveldb: Coalesced Leveldb for Small Data
+812,SciPy: Open Source Scientific Tools for Python
+813,Visualizing Data using t-SNE
+814,Certified Robustness to Adversarial Examples with Differential Privacy
+815,Exact Matrix Completion via Convex Optimization
+816,Spectral Regularization Algorithms for Learning Large Incomplete Matrices
+817,Low-rank matrix completion using alternating minimization
+818,Matrix Completion from Noisy Entries
+819,Matrix Completion has No Spurious Local Minimum
+820,Matrix estimation by Universal Singular Value Thresholding
+821,An Overview of Low-Rank Matrix Recovery From Incomplete Observations
+822,Logit Pairing Methods Can Fool Gradient-Based Attacks
+823,Fast low-rank estimation by projected gradient descent: General statistical and algorithmic guarantees
+824,Improving Adversarial Robustness by Data-Specific Discretization
+825,Harnessing Structures in Big Data via Guaranteed Low-Rank Matrix Estimation: Recent Theory and Fast Algorithms via Convex and Nonconvex Optimization
+826,Community Detection in General Stochastic Block models: Fundamental Limits and Efficient Algorithms for Recovery
+827,Recovering Communities in the General Stochastic Block Model Without Knowing the Parameters
+828,Stochastic blockmodel approximation of a graphon: Theory and consistent estimation
+829,Thy Friend is My Friend: Iterative Collaborative Filtering for Sparse Matrix Estimation
+830,Lessons from the Netflix prize challenge
+831,Model Agnostic Time Series Analysis via Matrix Estimation
+832,Learning a Driving Simulator
+833,Is Machine Learning taking productivity in petroleum geoscience on a Moore’s Law trajectory?
+834,Learning a Driving Simulator
+835,Random Feature Nullification for Adversary Resistant Deep Architecture
+836,Improving Back-Propagation by Adding an Adversarial Gradient
+837,Deep Learning and Music Adversaries
+838,Improving the adversarial robustness of ConvNets by reduction of input dimensionality
+839,Deceiving Google's Perspective API Built for Detecting Toxic Comments
+840,Suppressing the Unusual: towards Robust CNNs using Symmetric Activation Functions
+841,Invariant backpropagation: how to train a transformation-invariant neural network
+842,The Foundations of Cost-Sensitive Learning
+843,Stacked Denoising Autoencoders: Learning Useful Representations in a Deep Network with a Local Denoising Criterion
+844,ACOUSTIC SCENE CLASSIFICATION WITH REJECT OPTION BASED ON RESNETS
+845,Novelty detection applied to the classification problem using Probabilistic Neural Network
+846,A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks
+847,Generalized Learning with Rejection for Classification and Regression Problems
+848,Improving Rejection Performance on Handwritten Digits by Training with Rubbish
+849,Foundations of Machine Learning
+850,Reject option with multiple thresholds
+851,Obfuscating Gender in Social Media Writing
+852,Handbook of Image and Video Processing
+853,References
+854,Robust principal component analysis?
+855,Symbolic Data Analysis: Conceptual Statistics and Data Mining (Wiley Series in Computational Statistics)
+856,Optimization of Automatic Target Recognition with a Reject Option Using Fusion and Correlated Sensor Data
+857,Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning
+858,A Theoretically Grounded Application of Dropout in Recurrent Neural Networks
+859,Gaussian Processes for Machine Learning (Adaptive Computation and Machine Learning)
+860,Nonlinear dimensionality reduction by locally linear embedding.
+861,A Brief Survey of Bandwidth Selection for Density Estimation
+862,Deep Manifold Traversal: Changing Labels with Convolutional Features
+863,Text to Image Synthesis using Residual GAN
+864,Adversarial Robustness Toolbox v1.0.0
+865,Adversarial Feature Selection Against Evasion Attacks
+866,Deep Speech: Scaling up end-to-end speech recognition
+867,Face recognition using eigenfaces
+868,A Theoretical Framework for Robustness of (Deep) Classifiers against Adversarial Samples
+869,Deep Speech: Scaling up end-to-end speech recognition
+870,DeepATAC: A deep-learning method to predict regulatory factor binding activity from ATAC-seq signals
+871,Comparative Study and Implementation of Supervised and Unsupervised Models for Recognizing Handwritten Kannada Characters
+872,Identifing of Alphanumerical Codes in Promotional products by Using of Deep Neural Network
+873,H 2020-ICT-2016-2 RIA Project-ID : 761329 WORTECS Networking research beyond 5 G Document 3 . 1 Gbps wireless radio and Gbps wireless optical communications
+874,Microsoft Malware Classification Challenge
+875,Microsoft Malware Classification Challenge
+876,Evaluation and Design of Robust Neural Network Defenses
+877,"Python for Grid-, Cloud-, and High-Performance-Computing"
+878,Distributional Smoothing by Virtual Adversarial Examples
+879,Dropout Training as Adaptive Regularization
+880,Robust Regression and Lasso
+881,Cutting-set methods for robust convex optimization with pessimizing oracles
+882,Oracle-Based Robust Optimization via Online Learning
+883,Robustness and Regularization of Support Vector Machines
+884,Robust Solutions to Least-Squares Problems with Uncertain Data
+885,Convolutional Deep Belief Networks on CIFAR-10
+886,Convex Learning with Invariances
+887,Smooth minimization of non-smooth functions
+888,Theory and Applications of Robust Optimization
+889,Convex Optimization
+890,Deep roto-translation scattering for object classification
+891,Support Vector Classification with Input Data Uncertainty
+892,Neural Networks - A Systematic Introduction
+893,Numerical Optimization (Springer Series in Operations Research and Financial Engineering)
+894,"On Nonconvex Optimization for Machine Learning: Gradients, Stochasticity, and Saddle Points"
+895,Numerical Optimization
+896,Chapter Fourteen. Robust Adjustable Multistage Optimization
+897,Introductory Lectures on Convex Optimization - A Basic Course
+898,Numerical Aircraft Design Using 3-D Transonic Analysis with Optimization. Volume I. Executive Summary.
+899,Accessing personal medical records online: A means to what ends?
+900,Distributionally Robust Optimization Under Moment Uncertainty with Application to Data-Driven Problems
+901,Computationally Tractable Counterparts of Distributionally Robust Constraints on Risk Measures
+902,Distributionally Robust Convex Optimization
+903,Kullback-Leibler divergence constrained distributionally robust optimization
+904,Worst-Case Value-At-Risk and Robust Portfolio Optimization: A Conic Programming Approach
+905,Optimal Residential Battery Storage Operations Using Robust Data-Driven Dynamic Programming
+906,Robust Solutions of Optimization Problems Affected by Uncertain Probabilities
+907,Robust sample average approximation
+908,The Price of Robustness
+909,Distributionally Robust Optimization and Its Tractable Approximations
+910,Tractable Robust Expected Utility and Risk Models for Portfolio Optimization
+911,Models for Minimax Stochastic Linear Optimization Problems with Risk Aversion
+912,Robustifying Convex Risk Measures for Linear Portfolios: A Nonparametric Approach
+913,Data-driven chance constrained stochastic program
+914,Models and algorithms for distributionally robust least squares problems
+915,A framework for optimization under ambiguity
+916,Distributionally robust optimization in context of data-driven problems
+917,On Wasserstein Two-Sample Testing and Related Families of Nonparametric Tests
+918,Ambiguous chance constrained problems and robust optimization
+919,Convex Optimization Theory
+920,Challenging the empirical mean and empirical variance: a deviation study
+921,Ambiguous Risk Measures and Optimal Robust Portfolios
+922,On the Relation Between Option and Stock Prices: A Convex Optimization Approach
+923,Distributionally Robust Stochastic Programming
+924,Simple Bounds for the Convergence of Empirical and Occupation Measures in 1-Wasserstein Distance
+925,Optimization of conditional value-at risk
+926,A comment on “computational complexity of stochastic programming problems”
+927,Deriving robust counterparts of nonlinear uncertain inequalities
+928,A comment on “computational complexity of stochastic programming problems”
+929,Monotone Approximation of Decision Problems
+930,"Learning and Generalization in Overparameterized Neural Networks, Going Beyond Two Layers"
+931,Block splitting for distributed optimization
+932,The 1/ N investment strategy is optimal under high model ambiguity
+933,Tests of goodness of fit based on the \$L_2\$-Wasserstein distance
+934,The Optimizer's Curse: Skepticism and Postdecision Surprise in Decision Analysis
+935,Deriving robust counterparts of nonlinear uncertain inequalities
+936,Data-driven risk-averse stochastic program and renewable energy integration
+937,Ambiguous probabilistic programs
+938,The Nature of Statistical Learning Theory
+939,Ambiguity in portfolio selection
+940,On the rate of convergence in Wasserstein distance of the empirical measure
+941,Quantitative Concentration Inequalities for Empirical Measures on Non-compact Spaces
+942,A Brief Review of Real and Functional Analysis
+943,ON DUALITY THEORY OF CONIC LINEAR PROBLEMS
+944,Concentration Inequalities - A Nonasymptotic Theory of Independence
+945,Convex Optimization: Algorithms and Complexity
+946,Parabolic Regularity in Geometric Variational Analysis
+947,The parabolic Anderson model in a dynamic random environment: space-time ergodicity for the quenched Lyapunov exponent
+948,Topics in Optimal Transportation
+949,Representation Theorems in Hardy Spaces
+950,Robust SAA
+951,A Yosida-Hewitt decomposition for totally monotone games
+952,A Min-Max Solution of an Inventory Problem
+953,Computing controlled invariant sets from data using convex optimization
+954,Status and distribution of available macronutrients in relation to physico- chemical properties under different land uses of cold arid soils of Spiti valley in Himachal Pradesh
+955,Data-driven risk-averse stochastic program and renewable energy integration
+956,A Distributionally Robust Optimization Approach for Stochastic Elective Surgery Scheduling with Limited Intensive Care Unit Capacity
+957,Mathematical Questions and Challenges in Quantum Electrodynamics and its Applications
+958,Linear Statistical Inference and Its Applications
+959,Lectures on Stochastic Programming - Modeling and Theory
+960,Binary decision rules for multistage adaptive mixed-integer optimization
+961,A Yosida-Hewitt decomposition for totally monotone games
+962,"Real and functional analysis , (3rd edition), by Serge Lang. Pp 580 DM88. 1993. ISBN 3-540-94001-4 (Springer)"
+963,A Functional Analysis of 2008 and 2012 Presidential Nomination Acceptance Addresses
+964,"Advances in Web Intelligence Third International Atlantic Web IntelligenceConference, AWIC 2005, Lodz, Poland, June 6-9, 2005, Proceedings"
+965,Ambiguous probabilistic programs
+966,Studies in the Mathematical Theory of Inventory and Production.
+967,Studies in the Mathematical Theory of Inventory and Production.
+968,Disentangling Adversarial Robustness and Generalization
+969,Scaling provable adversarial defenses
+970,Convex Adversarial Collective Classification
+971,Evaluating Robustness of Neural Networks with Mixed Integer Programming
+972,Verifying Neural Networks with Mixed Integer Programming
+973,Is Robustness the Cost of Accuracy? - A Comprehensive Study on the Robustness of 18 Deep Image Classification Models
+974,Training for Faster Adversarial Robustness Verification via Inducing ReLU Stability
+975,Training verified learners with learned verifiers
+976,On Robustness and Regularization of Structural Support Vector Machines
+977,Shake-Shake regularization
+978,Deep Feature Interpolation for Image Content Changes
+979,What Makes Tom Hanks Look Like Tom Hanks
+980,Transfiguring portraits
+981,Sensitive Information of Deep Learning Based Face Anti-spoofing Algorithms
+982,"Mobile Encrypted Traffic Classification Using Deep Learning: Experimental Evaluation, Lessons Learned, and Challenges"
+983,Adversarial Distributional Training for Robust Deep Learning
+984,Distributed Representations of Words and Phrases and their Compositionality
+985,Large Scale GAN Training for High Fidelity Natural Image Synthesis
+986,The Unreasonable Effectiveness of Deep Features as a Perceptual Metric
+987,Image Style Transfer Using Convolutional Neural Networks
+988,Density estimation using Real NVP
+989,Network Dissection: Quantifying Interpretability of Deep Visual Representations
+990,Deep Image Prior
+991,NICE: Non-linear Independent Components Estimation
+992,Interpretable Explanations of Black Boxes by Meaningful Perturbation
+993,Inverting Visual Representations with Convolutional Networks
+994,"Adversarial Examples Are Not Bugs, They Are Features"
+995,Object Detectors Emerge in Deep Scene CNNs
+996,SmoothGrad: removing noise by adding noise
+997,Sanity Checks for Saliency Maps
+998,Axiomatic Attribution for Deep Networks
+999,Invertible Residual Networks
+1000,Interpretation of Neural Networks is Fragile
+1001,The (Un)reliability of saliency methods
+1002,i-RevNet: Deep Invertible Networks
+1003,Excessive Invariance Causes Adversarial Vulnerability
+1004,Real Time Image Saliency for Black Box Classifiers
+1005,A Theoretical Explanation for Perplexing Behaviors of Backpropagation-based Visualizations
+1006,Comprehensive electrical and thermal analysis of the stress grading system of a large hydro generator
+1007,The Building Blocks of Interpretability
+1008,Exploiting Excessive Invariance caused by Norm-Bounded Adversarial Robustness
+1009,You Only Propagate Once: Accelerating Adversarial Training via Maximal Principle
+1010,EAD: Elastic-Net Attacks to Deep Neural Networks via Adversarial Examples
+1011,You Only Propagate Once: Painless Adversarial Training Using Maximal Principle
+1012,Are adversarial examples inevitable?
+1013,On Security and Sparsity of Linear Classifiers for Adversarial Settings
+1014,On the Geometry of Adversarial Examples
+1015,The Curse of Concentration in Robust Learning: Evasion and Poisoning Attacks from Concentration of Measure
+1016,Benchmarking Neural Network Robustness to Common Corruptions and Perturbations
+1017,AdVersarial: Perceptual Ad Blocking meets Adversarial Machine Learning
+1018,ConvNets and ImageNet Beyond Accuracy: Understanding Mistakes and Uncovering Biases
+1019,HopSkipJumpAttack: A Query-Efficient Decision-Based Attack
+1020,Measuring the tendency of CNNs to Learn Surface Statistical Regularities
+1021,Efficient projections onto the l1-ball for learning in high dimensions
+1022,The accuracy of the Gaussian approximation to the sum of independent variates
+1023,Theoretical evidence for adversarial robustness through randomization
+1024,Boundary Attack++: Query-Efficient Decision-Based Adversarial Attack
+1025,Certified Adversarial Robustness with Additive Noise
+1026,"Prototypical Examples in Deep Learning: Metrics, Characteristics, and Utility"
+1027,Quantifying Perceptual Distortion of Adversarial Examples
+1028,"Accurate, Large Minibatch SGD: Training ImageNet in 1 Hour"
+1029,Long-Term Occupancy Analysis Using Graph-Based Optimisation in Thermal Imagery
+1030,An algorithm for quadratic programming
+1031,Problem Complexity and Method Efficiency in Optimization
+1032,Hitting Depth : Investigating Robustness to Adversarial Examples in Deep Convolutional Neural Networks
+1033,Preconditioned Stochastic Gradient Langevin Dynamics for Deep Neural Networks
+1034,Bayesian Learning via Stochastic Gradient Langevin Dynamics
+1035,Near-Optimal Signal Recovery From Random Projections: Universal Encoding Strategies?
+1036,Lower bounds on the robustness to adversarial perturbations
+1037,Formal Verification of Piece-Wise Linear Feed-Forward Neural Networks
+1038,Maximum Resilience of Artificial Neural Networks
+1039,An approach to reachability analysis for feed-forward ReLU neural networks
+1040,A Public Domain Dataset for Human Activity Recognition using Smartphones
+1041,Paragraph: Thwarting Signature Learning by Training Maliciously
+1042,On the Security of Machine Learning in Malware C&C Detection
+1043,Achieving Human Parity in Conversational Speech Recognition
+1044,An experimental study of the learnability of congestion control
+1045,Improved approximation algorithms for maximum cut and satisfiability problems using semidefinite programming
+1046,Classes of recursively enumerable sets and their decision problems
+1047,Semidefinite programming relaxations for semialgebraic problems
+1048,H/sup /spl infin//-0ptimal Control and Related Minimax Design Problems: A Dynamic Game Approach
+1049,APEX: Autonomous Vehicle Plan Verification and Execution
+1050,On the construction of Lyapunov functions using the sum of squares decomposition
+1051,TCP ex machina: computer-generated congestion control
+1052,Invariant Funnels around Trajectories using Sum-of-Squares Programming
+1053,LQR-trees: Feedback Motion Planning via Sums-of-Squares Verification
+1054,Analysis of Non-polynomial Systems using the Sum of Squares Decomposition
+1055,Controllers for reachability specifications for hybrid systems
+1056,YALMIP : a toolbox for modeling and optimization in MATLAB
+1057,A time-dependent Hamilton-Jacobi formulation of reachable sets for continuous dynamic games
+1058,DeepFense: Online Accelerated Defense Against Adversarial Deep Learning
+1059,The general problem of the stability of motion
+1060,Greedy Layer-Wise Training of Deep Networks
+1061,Sparse deep belief net model for visual area V2
+1062,Improving DNN Robustness to Adversarial Attacks using Jacobian Regularization
+1063,Adversarial Vulnerability of Neural Networks Increases With Input Dimension
+1064,Large Margin Deep Networks for Classification
+1065,Explaining nonlinear classification decisions with deep Taylor decomposition
+1066,Robust Large Margin Deep Neural Networks
+1067,Robust Perception through Analysis by Synthesis
+1068,Sorting out Lipschitz function approximation
+1069,Support-Vector Networks
+1070,Handwritten Digit Recognition with a Back-Propagation Network
+1071,Texture Synthesis Using Convolutional Neural Networks
+1072,Deep Neural Networks as a Computational Model for Human Shape Sensitivity
+1073,Deep Neural Networks Rival the Representation of Primate IT Cortex for Core Visual Object Recognition
+1074,Comparing deep neural networks against humans: object recognition when the signal gets weaker
+1075,Generalisation in humans and deep neural networks
+1076,Approximating CNNs with Bag-of-local-Features models works surprisingly well on ImageNet
+1077,A parametric texture model based on deep convolutional features closely matches texture appearance for humans.
+1078,Cognitive Psychology for Deep Neural Networks: A Shape Bias Case Study
+1079,Assessing Shape Bias Property of Convolutional Neural Networks
+1080,Performance-optimized hierarchical models predict neural responses in higher visual cortex
+1081,Correspondence of Deep Neural Networks and the Brain for Visual Textures
+1082,A Study and Comparison of Human and Deep Learning Recognition Performance under Visual Distortions
+1083,The importance of shape in early lexical learning
+1084,Sketch-a-Net: A Deep Neural Network that Beats Humans
+1085,The role of textural statistics vs. outer contours in deep CNN and neural responses to objects
+1086,Arbitrary Style Transfer in Real-Time with Adaptive Instance Normalization
+1087,On the Performance of GoogLeNet and AlexNet Applied to Sketches
+1088,The Unreasonable Effectiveness of Texture Transfer for Single Image Super-resolution
+1089,"Humans, but Not Deep Neural Networks, Often Miss Giant Targets in Scenes"
+1090,Texture and art with deep neural networks
+1091,Deep Neural Networks: A New Framework for Modeling Biological Vision and Brain Information Processing.
+1092,One-shot Texture Segmentation
+1093,Synthesising Dynamic Textures using Convolutional Neural Networks
+1094,WordNet: a lexical database for English
+1095,Experimental Demonstration of Building and Operating QoS-aware Survivable vSD-EONs with Transparent Resiliency
+1096,Motivating the Rules of the Game for Adversarial Example Research
+1097,Adversarial Examples Are a Natural Consequence of Test Error in Noise
+1098,Prior Convictions: Black-Box Adversarial Attacks with Bandits and Priors
+1099,Adversarial Examples that Fool both Computer Vision and Time-Limited Humans
+1100,On the Effectiveness of Interval Bound Propagation for Training Verifiably Robust Models
+1101,The Efficacy of SHIELD under Different Threat Models
+1102,Generative Adversarial Examples
+1103,Feature Weighting for Improved Classifier Robustness
+1104,Is AmI (Attacks Meet Interpretability) Robust to Adversarial Examples?
+1105,Decision Boundary Analysis of Adversarial Examples
+1106,Practical Black-Box Attacks on Deep Neural Networks Using Efficient Query Mechanisms
+1107,"With Friends Like These, Who Needs Adversaries?"
+1108,On the Limitation of MagNet Defense Against L1-Based Adversarial Examples
+1109,Towards Fast Computation of Certified Robustness for ReLU Networks
+1110,AutoZOOM: Autoencoder-based Zeroth Order Optimization Method for Attacking Black-box Neural Networks
+1111,Detection of Malicious PDF Files Based on Hierarchical Document Structure
+1112,Benchmarking Neural Network Robustness to Common Corruptions and Surface Variations
+1113,Ad-versarial: Defeating Perceptual Ad-Blocking
+1114,L2-Nonexpansive Neural Networks
+1115,"SoK: Science, Security and the Elusive Goal of Security as a Scientific Pursuit"
+1116,The protection of information in computer systems
+1117,European conference on machine learning and knowledge discovery in databases
+1118,SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <1MB model size
+1119,Lambertian Reflectance and Linear Subspaces
+1120,Training Deep Networks with Synthetic Data: Bridging the Reality Gap by Domain Randomization
+1121,Render for CNN: Viewpoint Estimation in Images Using CNNs Trained with Rendered 3D Model Views
+1122,Physically Based Rendering: From Theory to Implementation
+1123,Learning from Synthetic Humans
+1124,Casting curved shadows on curved surfaces
+1125,ShapeNet: An Information-Rich 3D Model Repository
+1126,(CAD)\$^2\$RL: Real Single-Image Flight without a Single Real Image
+1127,Driving in the Matrix: Can virtual worlds replace human-generated annotations for real world tasks?
+1128,"Attend, Infer, Repeat: Fast Scene Understanding with Generative Models"
+1129,Synthesizing Training Images for Boosting Human 3D Pose Estimation
+1130,An efficient representation for irradiance environment maps
+1131,Neural 3D Mesh Renderer
+1132,Adversarially Tuned Scene Generation
+1133,The rendering equation
+1134,Neural scene representation and rendering
+1135,Unsupervised Training for 3D Morphable Model Regression
+1136,"Local, deformable precomputed radiance transfer"
+1137,Avatar digitization from a single image for real-time rendering
+1138,Spherical Harmonic Lighting: The Gritty Details
+1139,Material Editing Using a Physically Based Rendering Network
+1140,A practical analytic model for daylight
+1141,3D Simulation for Robot Arm Control with Deep Q-Learning
+1142,Training Augmentation with Adversarial Examples for Robust Speech Recognition
+1143,Efficient algorithms for local and global accessibility shading
+1144,How Useful Is Photo-Realistic Rendering for Visual Learning?
+1145,Defense Against the Dark Arts: An overview of adversarial example security research and future research directions
+1146,Model-Driven Simulations for Computer Vision
+1147,Paparazzi: surface editing by way of multi-view image processing
+1148,Efficient Spherical Harmonics Lighting with the Preetham Skylight Model
+1149,Counter-measures to photo attacks in face recognition: A public database and a baseline
+1150,Deep convolutional neural networks for LVCSR
+1151,"OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks"
+1152,"Learnability, Stability and Uniform Convergence"
+1153,Domain Adaptation for Large-Scale Sentiment Classification: A Deep Learning Approach
+1154,Approximation by superpositions of a sigmoidal function
+1155,Learning multiple layers of representation
+1156,Random Search for Hyper-Parameter Optimization
+1157,Understanding the exploding gradient problem
+1158,"Results from a phase I, dose-escalation study of PX-478, an orally available inhibitor of HIF-1\alpha\."
+1159,"Cultural Perspectives on Classroom Assessment: A Path Toward the “Japanese Assessment for Learning Network"""
+1160,Domain Adaptation for Large-Scale Sentiment Classification: A Deep Learning Approach
+1161,Recent Advances in the Artificial intelligence
+1162,The vulnerability of learning to adversarial perturbation increases with intrinsic dimensionality
+1163,CuRTAIL: ChaRacterizing and Thwarting AdversarIal deep Learning
+1164,Towards Safe Deep Learning: Unsupervised Defense Against Generic Adversarial Attacks
+1165,Local Intrinsic Dimensionality I: An Extreme-Value-Theoretic Foundation for Similarity Applications
+1166,Local Intrinsic Dimensionality II: Multivariate Analysis and Distributional Support
+1167,Finding nearest neighbors in growth-restricted metrics
+1168,Generalized Expansion Dimension
+1169,An Introduction to Statistical Modeling of Extreme Values
+1170,An Introduction to Statistical Modeling of Extreme Values
+1171,Mitigating Evasion Attacks to Deep Neural Networks via Region-based Classification
+1172,Visual Concepts and Compositional Voting
+1173,Single-Shot Object Detection with Enriched Semantics
+1174,DeepVoting: An Explainable Framework for Semantic Part Detection under Partial Occlusion
+1175,An Introduction to the Bootstrap
+1176,Improving predictive inference under covariate shift by weighting the log-likelihood function
+1177,An Introduction to the Bootstrap
+1178,Manifold Denoising by Nonlinear Robust Principal Component Analysis
+1179,Fast Generation for Convolutional Autoregressive Models
+1180,Algorithm 778: L-BFGS-B: Fortran subroutines for large-scale bound-constrained optimization
+1181,A Limited Memory Algorithm for Bound Constrained Optimization
+1182,Clustering via Mode Seeking by Direct Estimation of the Gradient of a Log-Density
+1183,Reinforcement Based Learning on Classification Task Could Yield Better Generalization and Adversarial Accuracy
+1184,On the vulnerability of face verification systems to hill-climbing attacks
+1185,Attribute and simile classifiers for face verification
+1186,Labeled Faces in the Wild: A Database forStudying Face Recognition in Unconstrained Environments
+1187,Rapid object detection using a boosted cascade of simple features
+1188,A new optimizer using particle swarm theory
+1189,Learning State Space Trajectories in Recurrent Neural Networks
+1190,Gradient calculations for dynamic recurrent neural networks: a survey
+1191,Learning long-term dependencies in NARX recurrent neural networks
+1192,"Learning Complex, Extended Sequences Using the Principle of History Compression"
+1193,Neurocontrol of nonlinear dynamical systems with Kalman filter trained recurrent networks
+1194,On Exact Computation with an Infinitely Wide Neural Net
+1195,LSTM can Solve Hard Long Time Lag Problems
+1196,Finite State Automata and Simple Recurrent Networks
+1197,Dynamics and architecture for neural computation
+1198,Induction of Multiscale Temporal Structure
+1199,Encoding sequential structure: experience with the real-time recurrent learning algorithm
+1200,A time-delay neural network architecture for isolated word recognition
+1201,A Fixed Size Storage O(n3) Time Complexity Learning Algorithm for Fully Recurrent Continually Running Networks
+1202,Nonlinear higher-order statistical decorrelation by volume-conserving neural architectures
+1203,Induction of Finite-State Languages Using Second-Order Recurrent Networks
+1204,Experimental Comparison of the Effect of Order in Recurrent Neural Networks
+1205,"Bridging Long Time Lags by Weight Guessing and \long Short Term Memory"""
+1206,Time Warping Invariant Neural Networks
+1207,Holographic Recurrent Networks
+1208,A Theory for Neural Networks with Time Delays
+1209,Guessing can Outperform Many Long Time Lag Algorithms
+1210,Complexity of exact gradient computation algorithms for recurrent neural networks
+1211,Finding Structure in Time
+1212,A hybrid technique to enhance the performance of recurrent neural networks for time series prediction
+1213,Gradient-based learning algorithms for recurrent networks and their computational complexity
+1214,Induction of Multiscale Temporal Structure
+1215,Learning State Space Trajectories in Recurrent Neural Networks
+1216,Holographic Recurrent Networks
+1217,Recurrent Cascade Neural Network For Image Classification
+1218,The utility driven dynamic error propagation network
+1219,Understanding the elements of executable architectures through a multi-dimensional analysis framework
+1220,Untersuchungen zu dynamischen neuronalen Netzen
+1221,Experimental Comparison of the Effect of Order in Recurrent Neural Networks
+1222,Adversarial Vision Challenge
+1223,Recent advances in convolutional neural networks
+1224,Apprenticeship Learning using Inverse Reinforcement Learning and Gradient Methods
+1225,Learning Deep Features for Scene Recognition using Places Database
+1226,Recognizing Image Style
+1227,REMODEL: Rethinking Deep CNN Models to Detect and Count on a NeuroSynaptic System
+1228,Workshop on Representation Learning on Graphs and Manifolds U NDERSTANDING ATTENTION IN GRAPH NEURAL NETWORKS
+1229,Deep net architectures for visual-based clothing image recognition on large database
+1230,Learning Deep Features for Scene Recognition using Places Database
+1231,Learning Deep Features for Scene Recognition using Places Database
