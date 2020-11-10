@@ -159,35 +159,49 @@ class Cite():
             return None, state
     
     def excute_action(self, browser, x_path):
+        end_time = 10
         do, state = self.delay_do(browser, x_path)
-        while(state):
+        while(state and end_time>0):
            do, state = self.delay_do(browser, x_path)
            time.sleep(1)
+           end_time = end_time-1
         return do
     
     
     def dig_onepaper_refs_title(self, title):
         ref_titles = []
-        self.browser.get('https://www.semanticscholar.org')
+        loop =True
+        while(loop):
+            try:
+                self.__init__()
+                self.browser.get('https://www.semanticscholar.org')
+                loop = False
+            except:
+                self.browser.quit()
+                loop = True
+            
         input_ = self.browser.find_element_by_xpath('//*[@id="search-form"]/div/div/input')
         input_.send_keys(title)#传送入关键词
         button1 = self.browser.find_element_by_xpath('//*[@id="search-form"]/div/div/button/div/span')
         button1.click()
         button2 = self.excute_action(self.browser, '//*[@id="main-content"]/div[1]/div/div[1]/a')
         button2.click()
+        before_text = ''
         while(1):
-            before_text = ''
             unload_flag = True#check if cl_paper_title loads
             while(unload_flag):
                 time.sleep(1)
                 ref = self.excute_action(self.browser,'//*[@id="references"]/div[2]')
+                if ref == None:
+                    break
                 bf = BeautifulSoup(ref.get_attribute('innerHTML'), "html.parser")
                 ref = bf.find_all('div', class_ ='cl-paper-title')
-                ref_count = bf.find('div', class_='citation-list__label')
                 ref_titles.extend([i.text for i in ref])
                 unload_flag = ref[0].text == before_text
                 before_text = ref[0].text
-            time.sleep(2)
+            time.sleep(3)
+            if ref == None:
+                    break
             if len([i.text for i in ref])<10 or len(self.browser.find_elements_by_link_text("›"))==1:
                 break
             button3 = self.browser.find_elements_by_link_text("›")[-1]
