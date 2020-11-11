@@ -260,3 +260,98 @@
 258,Smoothed Inference for Adversarially-Trained Models
 259,Biologically inspired protection of deep networks from adversarial attacks
 260,Delving into adversarial attacks on deep policies
+261,Analysis of classifiers’ robustness to adversarial perturbations
+262,signSGD: compressed optimisation for non-convex problems
+263,"Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding"
+264,On Calibration of Modern Neural Networks
+265,The Arcade Learning Environment: An Evaluation Platform for General Agents (Extended Abstract)
+266,MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems
+267,A Course in Game Theory
+268,MagNet: A Two-Pronged Defense against Adversarial Examples
+269,Improved Training of Wasserstein GANs
+270,Early Methods for Detecting Adversarial Images
+271,Task-Aware Compressed Sensing with Generative Adversarial Networks
+272,Deep Learning Face Attributes in the Wild
+273,Fashion-MNIST: a Novel Image Dataset for Benchmarking Machine Learning Algorithms
+274,Densely Connected Convolutional Networks
+275,Nonlinear total variation based noise removal algorithms
+276,The Split Bregman Method for L1-Regularized Problems
+277,Adversary Resistant Deep Neural Networks with an Application to Malware Detection
+278,The Concrete Distribution: A Continuous Relaxation of Discrete Random Variables
+279,Nonlocally Centralized Sparse Representation for Image Restoration
+280,Is Deep Learning Safe for Robot Vision? Adversarial Examples Against the iCub Humanoid
+281,Learning Adversary-Resistant Deep Neural Networks
+282,"La cryptographie militaire (Auguste Kerckhoffs, 1883)"
+283,"Show, Attend, Control, and Justify: Interpretable Learning for Self-Driving Cars"
+284,"MagNet and ""Efficient Defenses Against Adversarial Attacks"" are Not Robust to Adversarial Examples"
+285,Adversarial Example Defense: Ensembles of Weak Defenses are not Strong
+286,Cascade Adversarial Machine Learning Regularized with a Unified Embedding
+287,Wide Residual Networks
+288,Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation
+289,PixelCNN++: Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications
+290,Learning representations by back-propagating errors
+291,Learning long-term dependencies with gradient descent is difficult
+292,Estimating Local Intrinsic Dimensionality
+293,On the (Statistical) Detection of Adversarial Examples
+294,Generating Adversarial Malware Examples for Black-Box Attacks Based on GAN
+295,The security of machine learning
+296,DREBIN: Effective and Explainable Detection of Android Malware in Your Pocket
+297,Outside the Closed World: On Using Machine Learning for Network Intrusion Detection
+298,Automatic analysis of malware behavior using machine learning
+299,Deep neural network based malware detection using two dimensional binary program features
+300,An evaluation of Naive Bayesian anti-spam filtering
+301,Semantic Adversarial Examples
+302,FeatureSmith: Automatically Engineering Features for Malware Detection by Mining the Security Literature
+303,MARVIN: Efficient and Comprehensive Mobile App Classification through Static and Dynamic Analysis
+304,Dense Associative Memory Is Robust to Adversarial Inputs
+305,Using Non-invertible Data Transformations to Build Adversary-Resistant Deep Neural Networks
+306,Automated Static Code Analysis for Classifying Android Applications Using Machine Learning
+307,Efficient Detection of Zero-day Android Malware Using Normalized Bernoulli Naive Bayes
+308,The Motivational Pull of Video Games: A Self-Determination Theory Approach
+309,Race-Ethnic Differences in Factors Associated with Inhaled Steroid Adherence Among Adults with Asthma
+310,"Activation of NK cells and T cells by NKG2D, a receptor for stress-inducible MICA."
+311,Adversarially Regularized Autoencoders
+312,Adversarially Regularized Autoencoders for Generating Discrete Structures
+313,Variational Approaches for Auto-Encoding Generative Adversarial Networks
+314,Improved Techniques for Training GANs
+315,Towards Principled Methods for Training Generative Adversarial Networks
+316,Do GANs actually learn the distribution? An empirical study
+317,LSUN: Construction of a Large-scale Image Dataset using Deep Learning with Humans in the Loop
+318,Wasserstein Auto-Encoders
+319,Adversarial Examples for Evaluating Reading Comprehension Systems
+320,DeepXplore: automated whitebox testing of deep learning systems
+321,Toward Controlled Generation of Text
+322,Edge-exchangeable graphs and sparsity (NIPS 2016)
+323,Synthetic and Natural Noise Both Break Neural Machine Translation
+324,Stochastic Gradient VB and the Variational Auto-Encoder
+325,Understanding Neural Networks through Representation Erasure
+326,Enhanced LSTM for Natural Language Inference
+327,A causal framework for explaining the predictions of black-box sequence-to-sequence models
+328,Anchors: High-Precision Model-Agnostic Explanations
+329,NIPS 2016 Tutorial: Generative Adversarial Networks
+330,Provably Minimally-Distorted Adversarial Examples
+331,Towards Robust Detection of Adversarial Examples
+332,Ground-Truth Adversarial Examples
+333,Machine Learning as an Adversarial Service: Learning Black-Box Adversarial Examples
+334,Detecting Adversarial Attacks on Neural Network Policies with Visual Foresight
+335,DeepDGA: Adversarially-Tuned Domain Generation and Detection
+336,DeepSafe: A Data-driven Approach for Checking Adversarial Robustness in Neural Networks
+337,Adversarial vulnerability for any classifier
+338,Exploring the space of adversarial images
+339,Fundamental limits on adversarial robustness
+340,SafetyNet: Detecting and Rejecting Adversarial Examples Robustly
+341,Learning Universal Adversarial Perturbations with Generative Models
+342,"Adversarial Examples, Uncertainty, and Transfer Testing Robustness in Gaussian Process Hybrid Deep Networks"
+343,A Boundary Tilting Persepective on the Phenomenon of Adversarial Examples
+344,Adversarial Images for Variational Autoencoders
+345,Towards Interpretable Deep Neural Networks by Leveraging Adversarial Examples
+346,Towards Proving the Adversarial Robustness of Deep Neural Networks
+347,Universal Adversarial Perturbations Against Semantic Image Segmentation
+348,Foolbox: A Python toolbox to benchmark the robustness of machine learning models
+349,Foolbox v0.8.0: A Python toolbox to benchmark the robustness of machine learning models
+350,Adversarially Robust Generalization Requires More Data
+351,Robustness to Adversarial Examples through an Ensemble of Specialists
+352,Standard detectors aren't (currently) fooled by physical adversarial stop signs
+353,Enhancing robustness of machine learning systems via data transformations
+354,Multiple classifier systems for robust classifier design in adversarial environments
+355,Evading Machine Learning Malware Detection
