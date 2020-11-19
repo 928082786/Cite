@@ -38,11 +38,11 @@ def df_where(exist_titles):
 
 cite = cite.Cite()
 
-ref_df = pd.read_csv('./ref.csv', index_col=0)
-ref_papers = np.load('./ref_paper.npy', allow_pickle=True).tolist()
-searched = pd.read_csv('./searched.csv', index_col=0)['0'].tolist()
+ref_df = pd.read_csv('./data/ref.csv', index_col=0)
+ref_papers = np.load('./data/ref_paper.npy', allow_pickle=True).tolist()
+searched = pd.read_csv('./data/searched.csv', index_col=0)['0'].tolist()
 searched = collections.deque(searched)
-unsearched = pd.read_csv('./unsearched.csv', index_col=0)['0'].tolist()
+unsearched = pd.read_csv('./data/unsearched.csv', index_col=0)['0'].tolist()
 unsearched = collections.deque(unsearched)
 
 
@@ -50,7 +50,7 @@ unsearched = collections.deque(unsearched)
 while(len(unsearched)):
     ref_papers_id = []
     pop_title = unsearched.popleft()
-    refs_title = cite.dig_onepaper_refs_title(pop_title)
+    refs_title = cite.dig_onepaper_title(pop_title, mode='ref')
     exist_titles, no_exists_titles = unique_title_df(refs_title)
     no_exists_standard = cite.dig_onepaper_refs_standard(no_exists_titles)
     no_exists_standard = pd.DataFrame(no_exists_standard).drop_duplicates(['id'])

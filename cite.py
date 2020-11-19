@@ -22,7 +22,8 @@ class Cite():
         chrome_options=Options()
         chrome_options.add_argument('--headless')
         #self.browser = webdriver.Chrome(options=chrome_options)
-        self.browser = webdriver.Chrome()
+        chrome_path = 'D:/迅雷下载/chromedriver_win32/chromedriver.exe'
+        self.browser = webdriver.Chrome(chrome_path)
 
     
     '''
@@ -168,18 +169,18 @@ class Cite():
         return do
     
     
-    def dig_onepaper_refs_title(self, title):
-        ref_titles = []
+    def dig_onepaper_title(self, title, mode='ref'):
+        paper_titles = []
         loop =True
         while(loop):
             try:
-                self.__init__()
                 self.browser.get('https://www.semanticscholar.org')
                 loop = False
             except:
                 self.browser.quit()
                 loop = True
-            
+                self.__init__()
+
         input_ = self.browser.find_element_by_xpath('//*[@id="search-form"]/div/div/input')
         input_.send_keys(title)#传送入关键词
         button1 = self.browser.find_element_by_xpath('//*[@id="search-form"]/div/div/button/div/span')
@@ -191,22 +192,28 @@ class Cite():
             unload_flag = True#check if cl_paper_title loads
             while(unload_flag):
                 time.sleep(1)
-                ref = self.excute_action(self.browser,'//*[@id="references"]/div[2]')
-                if ref == None:
+                if mode == 'ref':
+                    block = self.excute_action(self.browser,'//*[@id="references"]')
+                if mode == 'cite':
+                    block = self.excute_action(self.browser,'//*[@id="citing-papers"]')
+                if block == None:
                     break
-                bf = BeautifulSoup(ref.get_attribute('innerHTML'), "html.parser")
-                ref = bf.find_all('div', class_ ='cl-paper-title')
-                ref_titles.extend([i.text for i in ref])
-                unload_flag = ref[0].text == before_text
-                before_text = ref[0].text
+                bf = BeautifulSoup(block.get_attribute('innerHTML'), "html.parser")
+                p_s = bf.find_all('div', class_ ='cl-paper-title')
+                paper_titles.extend([i.text for i in p_s])
+                unload_flag = p_s[0].text == before_text
+                before_text = p_s[0].text
             time.sleep(3)
-            if ref == None:
+            if p_s == None:
                     break
-            if len([i.text for i in ref])<10 or len(self.browser.find_elements_by_link_text("›"))==1:
+            if len([i.text for i in p_s])<10 or len(self.browser.find_elements_by_link_text("›"))==1:
                 break
-            button3 = self.browser.find_elements_by_link_text("›")[-1]
+            if mode=='ref':
+                button3 = self.browser.find_elements_by_link_text("›")[-1]
+            else:
+                button3 = self.browser.find_elements_by_link_text("›")[0]
             self.browser.execute_script("arguments[0].click();", button3)
-        return ref_titles
+        return paper_titles
     
     def dig_onepaper_refs_standard(self, ref_titles):
         parse = []
@@ -220,3 +227,56 @@ class Cite():
                 failures.append(idx)
         #parse = parse.extend(self.enhance_refs(ref_titles, failures))
         return parse
+    
+    
+    def download_from_arxiv(self, title):
+    
+        def get_bs(target):
+            user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
+            headers = {'User-Agent':user_agent}
+            target=target.format(1)
+            req=requests.get(url=target)
+            html=req.text
+            html=html.replace('<br>',' ').replace('<br/>',' ').replace('/>','>')
+            bs=BeautifulSoup(html,"html.parser")
+            return bs
+        
+        def getFile(title, url):
+            from win32com.client import Dispatch
+            import shutil
+            import os
+            
+            thunder = Dispatch('ThunderAgent.Agent64.1')
+            thunder.AddTask(url, title)
+            time.sleep(0.5)
+            thunder.CommitTasks()
+            
+            loop = True
+            while(loop):
+                try:
+                    downloadRoot = 'D:\迅雷下载'
+                    files = os.listdir(downloadRoot)
+                    for file in files:
+                        if file.endswith('.pdf'):
+                            src_path = os.path.join(downloadRoot, file)
+                            dst_path = os.path.join('./download_papers', file)
+                    shutil.move(src_path, dst_path)
+                    loop = False
+                except:
+                    time.sleep(2)
+                    loop = True
+            
+            
+            
+        
+        import requests
+        url = 'https://arxiv.org/search/?query={}&searchtype=all&source=header'.format(title.replace(' ' , '+'))
+        bs = get_bs(url)
+        texts = bs.find_all('li', class_ = 'arxiv-result')
+        pdf_url = texts[0].find('span').a['href'] 
+        pdf_url = pdf_url[:8]+'export.'+pdf_url[8:]
+        getFile(title+'.pdf', pdf_url)
+                
+
+        
+        

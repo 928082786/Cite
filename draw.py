@@ -73,7 +73,7 @@ def plot_nx(nodes, edges, ref_df):
     nx.draw(G, pos, **options, node_size = node_size, node_color = node_size)
     for i in range(10):
         plt.annotate(text=G_deg[argsort[-i-1]], xy=list(pos.values())[argsort[-i-1]], xytext=list(pos.values())[argsort[-i-1]]+np.array([0.1*(i-5), 0.15*(i-7)]), arrowprops=dict(arrowstyle='-|>'))
-    plt.savefig('./paper.jpg')
+    plt.savefig('./figs/paper.jpg')
     
 def plot(ref_papers, searched, ref_df):
     nodes = ref_df['id'].tolist()
